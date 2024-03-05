@@ -11,7 +11,7 @@ function Welcome(props) {
                         <h1 className="mb-5 text-5xl font-bold">Welcome to Windborne,</h1>
                         <h1 className="mb-5 text-5xl font-bold">Traveller _</h1>
                         <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button className="btn bg-blue-1 text-white uppercase">Tell me more</button>
+                        <button className="btn bg-primary border border-0 text-white uppercase">Tell me more</button>
                     </div>
                 </div>
             </div>

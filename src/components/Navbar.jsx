@@ -4,7 +4,7 @@ import logo from '../assets/img/windborne-logo-white.png';
 function Navbar(props) {
     return (
         <div>
-            <div className="navbar bg-blue-1 rounded-lg fixed top-0 left-0">
+            <div className="navbar bg-primary rounded-lg fixed top-0 left-0">
                 <div className="navbar-start px-2">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
