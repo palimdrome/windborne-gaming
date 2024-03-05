@@ -4,7 +4,7 @@ import logo from '../assets/img/windborne-logo-white.png';
 function Navbar(props) {
     return (
         <div>
-            <div className="navbar bg-primary rounded-none fixed top-0 left-0">
+            <div className="navbar bg-primary rounded-lg fixed top-0 left-0 z-50">
                 <div className="navbar-start px-2">
                     <div className='flex items-center ml-4 '>
                         <img src={logo} className='h-10 py-2' alt="logo"/>
