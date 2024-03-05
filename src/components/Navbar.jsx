@@ -4,7 +4,7 @@ import logo from '../assets/img/windborne-logo-white.png';
 function Navbar(props) {
     return (
         <div>
-            <div className="navbar bg-primary rounded-lg fixed top-0 left-0">
+            <div className="navbar bg-primary rounded-none fixed top-0 left-0">
                 <div className="navbar-start px-2">
                     <div className='flex items-center ml-4 '>
                         <img src={logo} className='h-10 py-2' alt="logo"/>
@@ -28,7 +28,7 @@ function Navbar(props) {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </div>
 
-                        <ul tabIndex={0} className="menu menu-md dropdown-content mt-3 p-2 shadow bg-slate-100 rounded-box w-48">
+                        <ul tabIndex={0} className="menu menu-md dropdown-content mt-3 p-2 z-[1] shadow bg-slate-100 rounded-box w-48">
                             <li><a className='text-gray-950'>Genshin</a></li>
                             <li><a className='text-gray-950'>HSR</a></li>
                             <li><a className='text-gray-950'>About</a></li>
