@@ -2,9 +2,9 @@ import React from 'react'
 import ServicesCards from './ServicesCards'
 import PageTitle from '../PageTitle'
 
-import services from './../../data/services/genshin_services.json'
+import services from './../../data/services/hsr_services.json'
 
-function GenshinServices(props) {
+function HonkaiStarRailServices(props) {
 
     console.log(services)
 
@@ -26,7 +26,7 @@ function GenshinServices(props) {
     return (
         <div className='max-w-screen mb-20 text-black m-0'>
             <div className='flex flex-col items-center'>
-                <PageTitle title="GENSHIN IMPACT" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+                <PageTitle title="HONKAI: STAR RAIL" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
             </div>
             
 
@@ -43,4 +43,4 @@ function GenshinServices(props) {
     );
 }
 
-export default GenshinServices;
+export default HonkaiStarRailServices;
