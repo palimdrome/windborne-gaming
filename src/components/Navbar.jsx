@@ -6,21 +6,21 @@ function Navbar(props) {
         <div>
             <div className="navbar bg-primary fixed top-0 left-0 z-50">
                 <div className="navbar-start px-2">
-                    <div className='flex items-center ml-4 '>
+                    <a className='btn btn-ghost flex items-center ml-4 '>
                         <img src={logo} className='h-10 py-2' alt="logo"/>
-                        <a className="btn btn-ghost text-xl">Windborne Gaming</a>
-                    </div>
+                        <p className=" text-xl">Windborne Gaming</p>
+                    </a>
                     
                 </div>
 
                 
                 <div className="navbar-end">
                     <ul className="menu menu-horizontal px-1 w-3/4 hidden lg:flex lg:justify-evenly">
-                        <li><a className='text-white hover:text-cyan-800'>Genshin</a></li>
-                        <li><a className='text-white hover:text-cyan-800'>HSR</a></li>
-                        <li><a className='text-white hover:text-cyan-800'>About</a></li>
-                        <li><a className='text-white hover:text-cyan-800'>Team</a></li>
-                        <li><a className='text-white hover:text-cyan-800'>Contact</a></li>
+                        <li><a className='text-white uppercase hover:text-cyan-800'>Genshin</a></li>
+                        <li><a className='text-white uppercase hover:text-cyan-800'>HSR</a></li>
+                        <li><a className='text-white uppercase hover:text-cyan-800'>About</a></li>
+                        <li><a className='text-white uppercase hover:text-cyan-800'>Team</a></li>
+                        <li><a className='text-white uppercase hover:text-cyan-800'>Contact</a></li>
                     </ul>
 
                     <div className="dropdown dropdown-end">
