@@ -6,6 +6,8 @@ import Navbar from './components/Navbar'
 import Welcome from './components/Welcome'
 import Services from './components/Services'
 import GenshinServices from './components/services/GenshinServices'
+import Timeline from './components/Timeline'
+import Teams from './components/teams/Teams'
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
       <Welcome/>
       <Services/>
       <GenshinServices/>
+      <Timeline />
+      <Teams />
     </div>
   )
 }
