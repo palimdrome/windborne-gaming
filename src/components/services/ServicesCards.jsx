@@ -7,13 +7,13 @@ function ServicesCards({service}) {
 
     return (
 
-        <div    className="card w-64 h-64 text-white shadow-md hover:shadow-xl hover:shadow-stone-900/50" 
+        <div    className="card w-64 h-64 text-white shadow-md hover:shadow-xl hover:shadow-stone-900/50 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300" 
                 style={{
                     backgroundImage: "url(" + img + ")", 
                     backgroundSize: "cover",
                     position: "relative"}}>
 
-            <div className="card-body bg-slate-900/60 hover:bg-transparent rounded-2xl justify-end">
+            <div className="card-body bg-slate-900/60 transition ease-in-out delay-50 duration-300 hover:bg-transparent rounded-2xl justify-end">
 
                 {service.service_type === "Time-Limited Event" ? <p className='text-slate-200 text-left text-sm'>{service.service_type}</p> :<div></div>}
 
