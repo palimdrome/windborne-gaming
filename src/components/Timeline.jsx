@@ -3,7 +3,7 @@ import PageTitle from './PageTitle';
 
 function Timeline(props) {
     return(
-        <section className="min-h-screen flex flex-col justify-center items-center gap-y-5 lg:gap-y-10 p-10 lg:p-20">
+        <section className="min-h-screen flex flex-col justify-center items-center gap-y-5 lg:gap-y-10 p-10 lg:p-20" id='about'>
             <div className='flex flex-col items-center'>
                 <PageTitle title={"ABOUT"} subtitle={"Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi."}/>
             </div>
