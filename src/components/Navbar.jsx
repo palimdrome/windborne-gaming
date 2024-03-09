@@ -29,11 +29,11 @@ function Navbar(props) {
                         </div>
 
                         <ul tabIndex={0} className="menu menu-md dropdown-content mt-3 p-2 z-[1] shadow bg-slate-100 rounded-box w-48">
-                            <li><a className='text-gray-950'>Genshin</a></li>
-                            <li><a className='text-gray-950'>HSR</a></li>
-                            <li><a className='text-gray-950'>About</a></li>
-                            <li><a className='text-gray-950'>Team</a></li>
-                            <li><a className='text-gray-950'>Contact</a></li>
+                            <li><a className='text-gray-950' href='#genshin_services'>Genshin</a></li>
+                            <li><a className='text-gray-950' href='#hsr_services'>HSR</a></li>
+                            <li><a className='text-gray-950' href='#about'>About</a></li>
+                            <li><a className='text-gray-950' href='#teams'>Team</a></li>
+                            <li><a className='text-gray-950' href='#contact'>Contact</a></li>
                         </ul>
                     </div>
                 </div>
