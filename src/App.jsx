@@ -9,6 +9,8 @@ import GenshinServices from './components/services/GenshinServices'
 import HonkaiStarRailServices from './components/services/HonkaiStarRailServices'
 import Timeline from './components/Timeline'
 import Teams from './components/teams/Teams'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -21,6 +23,8 @@ function App() {
       <HonkaiStarRailServices/>
       <Timeline />
       <Teams />
+      <Contact />
+      <Footer />
     </div>
   )
 }
