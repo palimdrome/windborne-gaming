@@ -6,7 +6,7 @@ function Navbar(props) {
         <div>
             <div className="navbar bg-primary fixed top-0 left-0 z-50">
                 <div className="navbar-start px-2">
-                    <a className='btn btn-ghost flex items-center ml-4 '>
+                    <a className='btn btn-ghost flex items-center ml-4 ' href='#'>
                         <img src={logo} className='h-10 py-2' alt="logo"/>
                         <p className=" text-xl">Windborne Gaming</p>
                     </a>
@@ -16,11 +16,11 @@ function Navbar(props) {
                 
                 <div className="navbar-end">
                     <ul className="menu menu-horizontal px-1 w-3/4 hidden lg:flex lg:justify-evenly">
-                        <li><a className='text-white uppercase hover:text-cyan-800'>Genshin</a></li>
-                        <li><a className='text-white uppercase hover:text-cyan-800'>HSR</a></li>
-                        <li><a className='text-white uppercase hover:text-cyan-800'>About</a></li>
-                        <li><a className='text-white uppercase hover:text-cyan-800'>Team</a></li>
-                        <li><a className='text-white uppercase hover:text-cyan-800'>Contact</a></li>
+                        <li><a className='text-white uppercase hover:text-cyan-800' href='#genshin_services'>Genshin</a></li>
+                        <li><a className='text-white uppercase hover:text-cyan-800' href='#hsr_services'>HSR</a></li>
+                        <li><a className='text-white uppercase hover:text-cyan-800' href='#about'>About</a></li>
+                        <li><a className='text-white uppercase hover:text-cyan-800' href='#teams'>Team</a></li>
+                        <li><a className='text-white uppercase hover:text-cyan-800' href='#contact'>Contact</a></li>
                     </ul>
 
                     <div className="dropdown dropdown-end">
@@ -29,11 +29,11 @@ function Navbar(props) {
                         </div>
 
                         <ul tabIndex={0} className="menu menu-md dropdown-content mt-3 p-2 z-[1] shadow bg-slate-100 rounded-box w-48">
-                            <li><a className='text-gray-950'>Genshin</a></li>
-                            <li><a className='text-gray-950'>HSR</a></li>
-                            <li><a className='text-gray-950'>About</a></li>
-                            <li><a className='text-gray-950'>Team</a></li>
-                            <li><a className='text-gray-950'>Contact</a></li>
+                            <li><a className='text-gray-950' href='#genshin_services'>Genshin</a></li>
+                            <li><a className='text-gray-950' href='#hsr_services'>HSR</a></li>
+                            <li><a className='text-gray-950' href='#about'>About</a></li>
+                            <li><a className='text-gray-950' href='#teams'>Team</a></li>
+                            <li><a className='text-gray-950' href='#contact'>Contact</a></li>
                         </ul>
                     </div>
                 </div>

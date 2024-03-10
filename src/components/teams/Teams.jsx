@@ -4,7 +4,7 @@ import TeamMemberCard from './TeamMemberCard';
 
 function Teams(props) {
     return (
-        <section className='min-h-screen flex flex-col justify-center items-center gap-y-5 lg:gap-y-10 p-10 lg:p-20'>
+        <section className='min-h-screen flex flex-col justify-center items-center gap-y-5 lg:gap-y-10 p-10 lg:p-20' id='teams'>
             <div className='flex flex-col items-center'>
                 <PageTitle title={"TEAMS"} subtitle={"Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi."}/>
             </div>
