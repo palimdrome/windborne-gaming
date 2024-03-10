@@ -1,0 +1,38 @@
+[
+    {
+        "username": "Lim",
+        "desc": "Lorem ipsum dolor",
+        "imgSrc": "src/assets/img/team/lim-avatar.gif",
+        "genshinUID": 0,
+        "hsrUID": 0,
+        "hoyolabUID": 0
+    },
+
+    {
+        "username": "willow",
+        "desc": "Lorem ipsum dolor",
+        "imgSrc": "src/assets/img/team/willow-avatar.webp",
+        "genshinUID": 0,
+        "hsrUID": 0,
+        "hoyolabUID": 0
+    },
+
+    {
+        "username": "Rob",
+        "desc": "Lorem ipsum dolor",
+        "imgSrc": "src/assets/img/team/rob-avatar.webp",
+        "genshinUID": 0,
+        "hsrUID": 0,
+        "hoyolabUID": 0
+    },
+
+    {
+        "username": "Kai",
+        "desc": "Lorem ipsum dolor",
+        "imgSrc": "src/assets/img/team/kai-avatar.webp",
+        "genshinUID": 0,
+        "hsrUID": 0,
+        "hoyolabUID": 0
+    }
+
+]
