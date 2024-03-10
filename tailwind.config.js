@@ -4,6 +4,14 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+
+  theme: {
+    extend: {
+      fontFamily: {
+        jost: ["Jost", "sans-serif"],
+      },
+    },
+  },
   
   daisyui: {
     themes: [
@@ -12,13 +20,13 @@ export default {
         
           "primary": "#00b4d8",
                   
-          "secondary": "#0077b6",
+          "secondary": "#064866",
                   
-          "accent": "#03045e",
+          "accent": "#0077b6",
                   
-          "neutral": "#90e0ef",
+          "neutral": "#f1f1f1",
                   
-          "base-100": "#f3f4f6",
+          "base-100": "#ffffff",
                   
           "info": "#00b4d8",
                   

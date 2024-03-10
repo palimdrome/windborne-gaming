@@ -35,7 +35,7 @@ function HonkaiStarRailServices(props) {
             </div>
 
             <div className='hidden md:flex justify-center'>
-                <div className='flex flex-row flex-wrap items-center w-7/12 py-4 justify-items-center justify-center items-center'>
+                <div className='flex flex-row flex-wrap items-center w-10/12 py-4 justify-center'>
                     {servicesCardsLarge}
                 </div>
             </div>

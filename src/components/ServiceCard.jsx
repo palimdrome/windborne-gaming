@@ -2,16 +2,16 @@ import React from 'react';
 
 function ServiceCard(props) {
     let image = props.image;
+    let service = props.service;
+    let subtitle = props.subtitle;
     return (
-        <div className="card card-compact lg:w-5/12">
-            <figure className='rounded-3xl'>
-                <img src={image} alt="Genshin Impact banner" />
-            </figure>
+        <div className="card card-compact flex flex-col justify-center items-center">
+            <img src={image} className='max-w-xs rounded-3xl' alt="Genshin Impact banner" />
             <div className="card-body bg-transparent gap-0">
-                <h2 className="card-title justify-center text-black font-bold">Genshin Impact</h2>
-                <p className='text-black'>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.</p>
-                <div className="card-actions justify-center p-5">
-                    <button className="btn btn-primary text-white">SEE RATES</button>
+                <h3 className="card-title justify-center font-jost font-bold text text-black">{service}</h3>
+                <p className='font-jost text-black'>{subtitle}</p>
+                <div className="card-actions justify-center p-4">
+                    <button className="btn btn-secondary px-5 rounded-2xl font-jost text-white uppercase">see rates</button>
                 </div>
             </div>
         </div>

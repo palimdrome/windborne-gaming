@@ -4,9 +4,9 @@ function PageTitle(props) {
     let title = props.title;
     let subtitle = props.subtitle;
     return(
-        <div className='h-1/4 w-5/6 lg:w-3/4'>
-            <h2 className="text-5xl font-bold text-black">{title}</h2>
-            <p className="pt-5 text-black">{subtitle}</p>
+        <div className='h-1/4 w-5/6 lg:w-3/4 flex flex-col justify-center items-center gap-1'>
+            <h2 className="font-jost font-bold text-4xl xl:text-5xl text-black uppercase">{title}</h2>
+            <p className="max-w-xl font-jost text-black text-base md:text-base lg:text-lg xl:text-xl">{subtitle}</p>
         </div>
     );
 }

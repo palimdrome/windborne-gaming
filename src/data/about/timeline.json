@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Our humble beginnings",
+        "subtitle": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.",
+        "imgSrc": "src/assets/img/about/about-1.png",
+        "alt": "Pilot Services Soft Launch pub"
+    },
+    {
+        "title": "Genshin Impact Pilot Services",
+        "subtitle": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.",
+        "imgSrc": "src/assets/img/about/about-2.png",
+        "alt": "Genshin Impact Pilot Services pub"
+    },
+    {
+        "title": "Honkai: Star Rail Pilot Services",
+        "subtitle": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.",
+        "imgSrc": "src/assets/img/about/about-3.png",
+        "alt": "Honkai: Star Rail Pilot Services pub"
+    }
+]
