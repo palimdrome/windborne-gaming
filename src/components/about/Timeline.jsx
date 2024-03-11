@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import PageTitle from './PageTitle';
+import PageTitle from '../PageTitle';
 import TimelineSegment from './TimelineSegment';
 
 // import timeline from '../data/about/timeline.json';
