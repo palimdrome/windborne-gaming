@@ -5,7 +5,8 @@ import PageTitle from '../PageTitle'
 import services from './../../data/services/genshin/genshin_services.json'
 
 // Services Modals | Genshin Impact
-import AccountServicesModal from './genshin/AccountMaintenanceModal'
+import AccountMaintenanceModal from './genshin/AccountMaintenanceModal'
+import GenshinFarmingModal from './genshin/GenshinFarmingModal'
 
 function GenshinServices(props) {
 
@@ -30,7 +31,8 @@ function GenshinServices(props) {
         <div className='max-w-screen flex flex-col items-center mb-20 text-black m-0' id="genshin_services">
             <PageTitle title="GENSHIN IMPACT" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
 
-            <AccountServicesModal />
+            <AccountMaintenanceModal />
+            <GenshinFarmingModal />
 
             <div className='carousel carousel-center max-w-sm p-4 space-x-4 md:hidden'>
                 {servicesCards}
