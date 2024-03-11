@@ -14,7 +14,10 @@ function ServicesCards({service}) {
                         backgroundSize: "cover",
                         position: "relative"}}
                         
-                    onClick={()=>document.getElementById(modal_id + '_modal').showModal()}
+                    onClick={()=> {
+                        document.getElementById(modal_id + '_modal').showModal();
+                        document.getElementById(modal_id).scrollIntoView();
+                    }}
             >
 
                 <div className="card-body bg-slate-900/60 transition ease-in-out delay-50 duration-300 hover:bg-transparent rounded-2xl justify-end">

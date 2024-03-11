@@ -18,11 +18,13 @@ function GenshinFarmingModal () {
         fetchData();
     }, []);
 
+    
+
     return (
         <dialog id="farming_modal" className="modal modal-bottom sm:modal-middle">
             <div className="modal-box">
 
-                <h1 className="font-bold text-lg">Farming</h1>
+                <h1 className="font-bold text-lg" id='farming'>Farming</h1>
 
                 {/* Start inserting pricelist here */}
                 <div className='text-start'>
