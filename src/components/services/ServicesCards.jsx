@@ -4,6 +4,7 @@ import React from 'react';
 function ServicesCards({service}) {
     
     const img = service.img_url
+    const modal_id = service.id
 
     return (
 
@@ -11,7 +12,11 @@ function ServicesCards({service}) {
                 style={{
                     backgroundImage: "url(" + img + ")", 
                     backgroundSize: "cover",
-                    position: "relative"}}>
+                    position: "relative"}}
+                    
+                onClick={()=> {document.getElementById(modal_id + '_modal').showModal()}}
+
+                    >
 
             <div className="card-body bg-slate-900/60 transition ease-in-out delay-50 duration-300 hover:bg-transparent rounded-2xl justify-end">
 

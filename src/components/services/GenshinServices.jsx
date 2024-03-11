@@ -3,6 +3,7 @@ import ServicesCards from './ServicesCards'
 import PageTitle from '../PageTitle'
 
 import services from './../../data/services/genshin_services.json'
+import GenshinFarmingModal from './genshinServices/GenshinFarmingModal'
 
 function GenshinServices(props) {
 
@@ -26,6 +27,8 @@ function GenshinServices(props) {
     return (
         <div className='max-w-screen flex flex-col items-center mb-20 text-black m-0' id="genshin_services">
             <PageTitle title="GENSHIN IMPACT" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+
+            <GenshinFarmingModal />
 
             <div className='carousel carousel-center max-w-sm p-4 space-x-4 md:hidden'>
                 {servicesCards}
