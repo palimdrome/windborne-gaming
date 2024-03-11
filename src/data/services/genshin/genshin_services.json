@@ -4,7 +4,8 @@
         "title": "Sample Event Title",
         "duration": "04/23/24 3:59AM",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
-        "img_url": "/assets/img/services/genshin-service-1.png"
+        "img_url": "/assets/img/services/genshin-service-1.png",
+        "id": "event_1"
 
     },
     {
@@ -12,7 +13,8 @@
         "title": "Sample Event Title",
         "duration": "05/01/24 3:59AM",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
-        "img_url": "/assets/img/services/genshin-service-2.png"
+        "img_url": "/assets/img/services/genshin-service-2.png",
+        "id": "event_2"
 
     },
     {
@@ -20,7 +22,8 @@
         "title": "Sample Event Title",
         "duration": "05/08/24 3:59AM",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
-        "img_url": "/assets/img/services/genshin-service-3.png"
+        "img_url": "/assets/img/services/genshin-service-3.png",
+        "id": "event_3"
 
     },
     {
@@ -28,7 +31,8 @@
         "title": "Account Maintenance",
         "duration": "N/A",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
-        "img_url": "/assets/img/services/genshin-service-4.png"
+        "img_url": "/assets/img/services/genshin-service-4.png",
+        "id": "account_maintenance"
 
     },
     {
@@ -36,7 +40,8 @@
         "title": "Special Items",
         "duration": "N/A",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
-        "img_url": "/assets/img/services/genshin-service-5.png"
+        "img_url": "/assets/img/services/genshin-service-5.png",
+        "id": "special_items"
 
     },
     {
@@ -46,13 +51,15 @@
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
         "img_url": "/assets/img/services/genshin-service-6.png",
         "id": "farming"
+
     },
     {
         "service_type": "service",
         "title": "Archon Quests",
         "duration": "N/A",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum  reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
-        "img_url": "/assets/img/services/genshin-service-7.png"
+        "img_url": "/assets/img/services/genshin-service-7.png",
+        "id": "archon_quests"
 
     },
     {
@@ -60,7 +67,8 @@
         "title": "World Quests",
         "duration": "N/A",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum  reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
-        "img_url": "/assets/img/services/genshin-service-8.png"
+        "img_url": "/assets/img/services/genshin-service-8.png",
+        "id": "world_quests"
 
     },
     {
@@ -68,7 +76,8 @@
         "title": "Other Quests",
         "duration": "N/A",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum  reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
-        "img_url": "/assets/img/services/genshin-service-9.png"
+        "img_url": "/assets/img/services/genshin-service-9.png",
+        "id": "other_quests"
 
     },
     {
@@ -77,6 +86,7 @@
         "duration": "N/A",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum  reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
         "img_url": "/assets/img/services/genshin-service-10.png",
+        "id": "character_building",
 
         "prices": {
             "easy_enemies_1": "P1 per 4pcs",
