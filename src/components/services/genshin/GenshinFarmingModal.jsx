@@ -8,7 +8,7 @@ function GenshinFarmingModal () {
         // function to fetch the JSON file
         const fetchData = async () => {
             try {
-                const response = await fetch('src/data/services/genshin_farming.json');
+                const response = await fetch('src/data/services/genshin/genshin_farming.json');
                 const jsonData = await response.json();
                 setData(jsonData);
             } catch (error) {

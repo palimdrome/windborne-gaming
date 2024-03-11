@@ -2,7 +2,7 @@ import React from 'react'
 import ServicesCards from './ServicesCards'
 import PageTitle from '../PageTitle'
 
-import services from './../../data/services/hsr_services.json'
+import services from './../../data/services/hsr/hsr_services.json'
 
 function HonkaiStarRailServices(props) {
 

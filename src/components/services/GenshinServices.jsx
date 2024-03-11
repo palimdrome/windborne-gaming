@@ -2,8 +2,8 @@ import React from 'react'
 import ServicesCards from './ServicesCards'
 import PageTitle from '../PageTitle'
 
-import services from './../../data/services/genshin_services.json'
-import GenshinFarmingModal from './genshinServices/GenshinFarmingModal'
+import services from './../../data/services/genshin/genshin_services.json'
+import GenshinFarmingModal from './genshin/GenshinFarmingModal'
 
 function GenshinServices(props) {
 
