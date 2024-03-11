@@ -24,7 +24,7 @@ function GenshinServices(props) {
     console.log(servicesCards)
 
     return (
-        <div className='max-w-screen flex flex-col items-center mb-20 text-black m-0'>
+        <div className='max-w-screen flex flex-col items-center mb-20 text-black m-0' id="genshin_services">
             <PageTitle title="GENSHIN IMPACT" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
 
             <div className='carousel carousel-center max-w-sm p-4 space-x-4 md:hidden'>
