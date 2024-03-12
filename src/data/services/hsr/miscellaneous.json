@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Individual TBP burning options",
+        "subtitles": [
+            "Calyx (Golden/Crimson)",
+            "Stagnant Shadow",
+            "Cavern of Corrosion",
+            "Echo of War"
+        ],
+        "prices": [
+            "\u20B16/run (60 TBP)",
+            "\u20B13/run (30 TBP)",
+            "\u20B14/run (40 TBP)",
+            "\u20B19/run"
+        ]
+    },
+    {
+        "title": "Other Services",
+        "subtitles": [
+            "Simulated Universe"
+        ],
+        "prices": [
+            "\u20B15/1000 points"
+        ],
+        "notes": "Including optional immersifier claim."
+    }
+]
