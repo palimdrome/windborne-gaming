@@ -16,7 +16,6 @@ function ServicesCards({service}) {
                         
                     onClick={()=> {
                         document.getElementById(modal_id + '_modal').showModal();
-                        document.getElementById(modal_id).scrollIntoView();
                     }}
             >
 

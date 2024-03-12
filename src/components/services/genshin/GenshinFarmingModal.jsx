@@ -21,10 +21,13 @@ function GenshinFarmingModal () {
     
 
     return (
-        <dialog id="farming_modal" className="modal modal-bottom sm:modal-middle">
+        <dialog id="farming_modal" className="modal">
             <div className="modal-box">
+                <form method="dialog" className='hidden lg:flex'>
+                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                </form>
 
-                <h1 className="font-bold text-lg" id='farming'>Farming</h1>
+                <h1 className="font-bold text-xl" id='farming'>Farming</h1>
 
                 {/* Start inserting pricelist here */}
                 <div className='text-start'>
@@ -50,12 +53,11 @@ function GenshinFarmingModal () {
                 </div>
                 {/* Stop inserting pricelist here */}
 
-                <div className="modal-action">
-                    <form method="dialog">
-                        {/* if there is a button in form, it will close the modal */}
-                        <button className="btn">Close</button>
-                    </form>
-                </div>
+                <form method="dialog" className="mt-4 lg:hidden">
+                    <button className='btn btn-circle'>
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" /></svg>
+                    </button>
+                </form>
             </div>
         </dialog>
     )

@@ -4,19 +4,16 @@ import data from '../../../data/services/genshin/account_maintenance.json'
 function AccountMaintenanceModal(props) {
 
     const services = data.map(service =>
-            <div className='my-9 text-left'>
-                <div className='flow-root text-lg'>
-                    <p className='float-left'>{service.service_name}</p>
-                    <p className='float-right text-bold'>  {service.price}</p>
-                </div>
-                
-
-                {service.inclusions.map(inclusion =>
-                    <p className='ml-4 text-xs'>{inclusion}</p>
-                )}
+        <div className='px-2 md:px-5 lg:px-5 py-2 text-start'>
+            <div className='flex flex-row justify-between'>
+                <h2 className='font-bold'>{service.service_name}</h2>
+                <div className='h-0.5 grow border border-gray-500 border-solid mx-2.5 my-2.5'></div>
+                <h2 className='font-bold'>  {service.price}</h2>
             </div>
-        
-        )
+            {service.inclusions.map(inclusion =>
+                <p className='ml-4'>{inclusion}</p>
+            )}
+        </div>)
 
     return (
         <div>
@@ -26,7 +23,7 @@ function AccountMaintenanceModal(props) {
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                     </form>
 
-                    <h3 className="font-bold text-xl">Account Maintenance</h3>
+                    <h1 className="font-bold text-xl">Account Maintenance</h1>
                     {services}
 
                     <form method="dialog" className="mt-4 lg:hidden">
