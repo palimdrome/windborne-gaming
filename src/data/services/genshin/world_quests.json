@@ -1,7 +1,7 @@
 [
     {
-        "nation": "Mondstadt",
-        "quests": [
+        "title": "Mondstadt",
+        "subtitles": [
             "In the Mountains"
         ],
         "prices": [
@@ -9,8 +9,8 @@
         ]
     },
     {
-        "nation": "Liyue",
-        "quests": [
+        "title": "Liyue",
+        "subtitles": [
             "Chasm Delvers"
         ],
         "prices": [
@@ -18,8 +18,8 @@
         ]
     },
     {
-        "nation": "Inazuma",
-        "quests": [
+        "title": "Inazuma",
+        "subtitles": [
             "Through the Mists",
             "Sakred Sakura Cleansing",
             "From Dusk to Dawn in Byakuyakoku",
@@ -39,8 +39,8 @@
         ]
     },
     {
-        "nation": "Sumeru",
-        "quests": [
+        "title": "Sumeru",
+        "subtitles": [
             "Aranyaka",
             "Khvarena of Good and Evil",
             "The Dirge of Bilqis",
@@ -60,8 +60,8 @@
         ]
     },
     {
-        "nation": "Fontaine",
-        "quests": [
+        "title": "Fontaine",
+        "subtitles": [
             "Ancient Colors",
             "Ann of The Narzissenkreuz",
             "Aqueous Tidemarks"
@@ -73,8 +73,8 @@
         ]
     },
     {
-        "nation": "Short World Quests",
-        "quests": [
+        "title": "Short World Quests",
+        "subtitles": [
             "Mondstadt",
             "Liyue",
             "Inazuma",

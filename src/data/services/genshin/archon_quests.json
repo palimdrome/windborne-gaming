@@ -1,12 +1,12 @@
 [
     {
-        "nation": "Prologue (Mondstadt)",
-        "quests": [
+        "title": "Prologue (Mondstadt)",
+        "subtitles": [
             "Act I",
             "Act II",
             "Act III"
         ],
-        "titles": [
+        "desc": [
             "The Outlander Who Caught the Wind",
             "For a Tomorrow Without Tears",
             "Song of the Dragon and Freedom"
@@ -18,14 +18,14 @@
         ]
     },
     {
-        "nation": "Chapter I (Liyue)",
-        "quests": [
+        "title": "Chapter I (Liyue)",
+        "subtitles": [
             "Act I",
             "Act II",
             "Act III",
             "Act IV"
         ],
-        "titles": [
+        "desc": [
             "Of the Land Amidst Monoliths",
             "Farewell, Archaic Lord",
             "A New Star Approaches",
@@ -39,15 +39,15 @@
         ]
     },
     {
-        "nation": "Chapter II (Inazuma)",
-        "quests": [
+        "title": "Chapter II (Inazuma)",
+        "subtitles": [
             "Prologue",
             "Act I",
             "Act II",
             "Act III",
             "Act IV"
         ],
-        "titles": [
+        "desc": [
             "Autumn Winds, Scarlet Leaves",
             "The Immovable God and the Eternal Euthymia",
             "Stillness, the Sublimation of Shadow",
@@ -63,8 +63,8 @@
         ]
     },
     {
-        "nation": "Chapter III (Sumeru)",
-        "quests": [
+        "title": "Chapter III (Sumeru)",
+        "subtitles": [
             "Act I",
             "Act II",
             "Act III",
@@ -72,7 +72,7 @@
             "Act V",
             "Act VI"
         ],
-        "titles": [
+        "desc": [
             "Through Mists of Smoke and Forests Dark",
             "The Morn a Thousand Roses Brings",
             "Dreams, Emptiness, Deception",
@@ -90,15 +90,15 @@
         ]
     },
     {
-        "nation": "Chapter IV (Fontaine)",
-        "quests": [
+        "title": "Chapter IV (Fontaine)",
+        "subtitles": [
             "Act I",
             "Act II",
             "Act III",
             "Act IV",
             "Act V"
         ],
-        "titles": [
+        "desc": [
             "Prelude of Blancheur and Noirceur",
             "As Light Rain Falls Without Reason",
             "To the Stars Shining in the Depths",
@@ -114,13 +114,13 @@
         ]
     },
     {
-        "nation": "Interlude",
-        "quests": [
+        "title": "Interlude",
+        "subtitles": [
             "Act I",
             "Act II",
             "Act III"
         ],
-        "titles": [
+        "desc": [
             "The Crane Returns on the Wind",
             "Perilous Trail",
             "Inversion of Genesis"

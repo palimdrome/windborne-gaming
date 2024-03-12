@@ -7,7 +7,7 @@ import services from './../../data/services/genshin/genshin_services.json'
 // Services Modals | Genshin Impact
 import AccountMaintenanceModal from './genshin/AccountMaintenanceModal'
 import GenshinFarmingModal from './genshin/GenshinFarmingModal'
-import QuestModal from './genshin/QuestModal'
+import Modal from './genshin/Modal'
 
 function GenshinServices(props) {
 
@@ -34,8 +34,9 @@ function GenshinServices(props) {
 
             <AccountMaintenanceModal />
             <GenshinFarmingModal />
-            <QuestModal id="archon_quests" name="Archon Quests" jsonData='src/data/services/genshin/archon_quests.json'/>
-            <QuestModal id="world_quests" name="World Quests" jsonData='src/data/services/genshin/world_quests.json'/>
+            <Modal id="archon_quests" name="Archon Quests" jsonData='src/data/services/genshin/archon_quests.json'/>
+            <Modal id="world_quests" name="World Quests" jsonData='src/data/services/genshin/world_quests.json'/>
+            <Modal id="special_items" name="Special Items" jsonData='src/data/services/genshin/special_items.json'/>
 
 
             <div className='carousel carousel-center max-w-sm p-4 space-x-4 md:hidden'>
