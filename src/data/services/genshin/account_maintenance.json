@@ -1,7 +1,7 @@
 [
     {
         "service_name": "Daily Maintenance",
-        "price": "P25",
+        "price": "\u20B1 25",
         "inclusions": [
             "Daily Commissions",
             "Original Resin Burn",
@@ -12,7 +12,7 @@
 
     {
         "service_name": "Basic Weekly Maintenance",
-        "price": "P140",
+        "price": "\u20B1 140",
         "inclusions": [
             "7x Daily Maintenance"
         ]
@@ -20,7 +20,7 @@
 
     {
         "service_name": "Standard Weekly Maintenance",
-        "price": "P155",
+        "price": "\u20B1 155",
         "inclusions": [
             "Basic Weekly Maintenance",
             "+ Reputation: Bounties and Requests",
@@ -31,7 +31,7 @@
 
     {
         "service_name": "Premium Weekly Maintenance",
-        "price": "P200",
+        "price": "\u20B1 200",
         "inclusions": [
             "Standard Weekly Maintenance",
             "+ Weekly BP Missions*"
@@ -40,7 +40,7 @@
 
     {
         "service_name": "Monthly Maintenance",
-        "price": "",
+        "price": "\u20B1 560 - \u20B1 800",
         "inclusions": [
             "4x Weekly Maintenance (Basic, Standard, and/or Premium)",
             "+ 2x Daily Maintenance for FREE"

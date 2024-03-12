@@ -7,8 +7,11 @@ import services from './../../data/services/genshin/genshin_services.json'
 // Services Modals | Genshin Impact
 import AccountMaintenanceModal from './genshin/AccountMaintenanceModal'
 import GenshinFarmingModal from './genshin/GenshinFarmingModal'
+import Modal from './genshin/Modal'
 
 function GenshinServices(props) {
+
+    let characterBuildingNote = "These prices are just estimates and may change depending on the character and existing materials. Message us directly so we can provide an exact computation of what materials your character needs.";
 
     console.log(services)
 
@@ -33,6 +36,12 @@ function GenshinServices(props) {
 
             <AccountMaintenanceModal />
             <GenshinFarmingModal />
+            <Modal id="archon_quests" name="Archon Quests" jsonData='src/data/services/genshin/archon_quests.json'/>
+            <Modal id="world_quests" name="World Quests" jsonData='src/data/services/genshin/world_quests.json'/>
+            <Modal id="special_items" name="Special Items" jsonData='src/data/services/genshin/special_items.json'/>
+            <Modal id="character_building" name="Character Building" jsonData='src/data/services/genshin/character_building.json' note={characterBuildingNote} />
+            <Modal id="other_quests" name="Other Quests" jsonData='src/data/services/genshin/other_quests.json' />
+
 
             <div className='carousel carousel-center max-w-sm p-4 space-x-4 md:hidden'>
                 {servicesCards}
