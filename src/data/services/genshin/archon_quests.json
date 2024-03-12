@@ -1,0 +1,134 @@
+[
+    {
+        "nation": "Prologue (Mondstadt)",
+        "quests": [
+            "Act I",
+            "Act II",
+            "Act III"
+        ],
+        "titles": [
+            "The Outlander Who Caught the Wind",
+            "For a Tomorrow Without Tears",
+            "Song of the Dragon and Freedom"
+        ],
+        "prices": [
+            "\u20B1 30",
+            "\u20B1 30",
+            "\u20B1 30"
+        ]
+    },
+    {
+        "nation": "Chapter I (Liyue)",
+        "quests": [
+            "Act I",
+            "Act II",
+            "Act III",
+            "Act IV"
+        ],
+        "titles": [
+            "Of the Land Amidst Monoliths",
+            "Farewell, Archaic Lord",
+            "A New Star Approaches",
+            "We Will Be Reunited"
+        ],
+        "prices": [
+            "\u20B1 40",
+            "\u20B1 40",
+            "\u20B1 40",
+            "\u20B1 40"
+        ]
+    },
+    {
+        "nation": "Chapter II (Inazuma)",
+        "quests": [
+            "Prologue",
+            "Act I",
+            "Act II",
+            "Act III",
+            "Act IV"
+        ],
+        "titles": [
+            "Autumn Winds, Scarlet Leaves",
+            "The Immovable God and the Eternal Euthymia",
+            "Stillness, the Sublimation of Shadow",
+            "Omnipresence Over Mortals",
+            "Requiem of the Echoing Depths"
+        ],
+        "prices": [
+            "\u20B1 50",
+            "\u20B1 65",
+            "\u20B1 50",
+            "\u20B1 70",
+            "\u20B1 50"
+        ]
+    },
+    {
+        "nation": "Chapter III (Sumeru)",
+        "quests": [
+            "Act I",
+            "Act II",
+            "Act III",
+            "Act IV",
+            "Act V",
+            "Act VI"
+        ],
+        "titles": [
+            "Through Mists of Smoke and Forests Dark",
+            "The Morn a Thousand Roses Brings",
+            "Dreams, Emptiness, Deception",
+            "King Deshret and the Three Magi",
+            "Akasha Pulses, the Kalpa Flame Rises",
+            "Caribert"
+        ],
+        "prices": [
+            "\u20B1 90",
+            "\u20B1 65",
+            "\u20B1 60",
+            "\u20B1 60",
+            "\u20B1 115",
+            "\u20B1 60"
+        ]
+    },
+    {
+        "nation": "Chapter IV (Fontaine)",
+        "quests": [
+            "Act I",
+            "Act II",
+            "Act III",
+            "Act IV",
+            "Act V"
+        ],
+        "titles": [
+            "Prelude of Blancheur and Noirceur",
+            "As Light Rain Falls Without Reason",
+            "To the Stars Shining in the Depths",
+            "Cataclysm\u2019s Quickening",
+            "Masquerade of the Guilty"
+        ],
+        "prices": [
+            "\u20B1 95",
+            "\u20B1 70",
+            "\u20B1 60",
+            "\u20B1 70",
+            "\u20B1 60"
+        ]
+    },
+    {
+        "nation": "Interlude",
+        "quests": [
+            "Act I",
+            "Act II",
+            "Act III"
+        ],
+        "titles": [
+            "The Crane Returns on the Wind",
+            "Perilous Trail",
+            "Inversion of Genesis"
+        ],
+        "prices": [
+            "\u20B1 60",
+            "\u20B1 70",
+            "\u20B1 70"
+        ]
+    }
+]
