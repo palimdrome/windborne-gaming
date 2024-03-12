@@ -5,6 +5,7 @@ function Modal (props) {
     let id = props.id;
     let name = props.name;
     let json = props.jsonData;
+    let note = props.note;
     let div_id = id + "_modal"
 
     const [data, setData] = useState([]);
@@ -60,6 +61,10 @@ function Modal (props) {
                             <p className='hidden'></p>}
                         </div>
                     ))}
+                    {(note !== undefined) ?
+                    <p className='text-sm py-5 px-4'>{note}</p>
+                    :
+                    <p className='hidden'></p>}
                 </div>
                 {/* Stop inserting pricelist here */}
 
