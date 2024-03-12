@@ -33,7 +33,7 @@ function Modal (props) {
                     <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                 </form>
 
-                <h1 className="font-bold text-xl">{name}</h1>
+                <h1 className="font-bold text-xl focus:outline-none" tabIndex={1}>{name}</h1>
 
                 {/* Start inserting pricelist here */}
                 <div className='text-start'>

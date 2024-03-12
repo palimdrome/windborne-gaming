@@ -27,7 +27,7 @@ function GenshinFarmingModal () {
                     <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                 </form>
 
-                <h1 className="font-bold text-xl" id='farming'>Farming</h1>
+                <h1 className="font-bold text-xl focus:outline-none" id='farming' tabIndex={1}>Farming</h1>
 
                 {/* Start inserting pricelist here */}
                 <div className='text-start'>
