@@ -24,7 +24,7 @@ function HonkaiStarRailServices(props) {
     console.log(servicesCards)
 
     return (
-        <div className='max-w-screen mb-20 text-black m-0' id='hsr_services'>
+        <div className='max-w-screen mb-20 pt-20 text-black m-0' id='hsr_services'>
             <div className='flex flex-col items-center'>
                 <PageTitle title="HONKAI: STAR RAIL" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
             </div>
