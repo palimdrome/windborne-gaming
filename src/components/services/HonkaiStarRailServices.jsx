@@ -8,6 +8,7 @@ import services from './../../data/services/hsr/hsr_services.json'
 import Modal1 from './modals/Modal1'
 import Modal2 from './modals/Modal2'
 import Modal3 from './modals/Modal3'
+import Modal4 from './modals/Modal4'
 
 function HonkaiStarRailServices(props) {
 
@@ -26,6 +27,14 @@ function HonkaiStarRailServices(props) {
             
     )
 
+    const timeLimitedEvents = services.map((service) =>
+        (service.service_type === "Time-Limited Event" ?
+            <Modal4 id={service.id} name={service.title} pub_url={service.pub_url} />
+            :
+            <div className='hidden'></div>
+        ) 
+    )
+
     console.log(servicesCards)
 
     return (
@@ -37,6 +46,8 @@ function HonkaiStarRailServices(props) {
             <Modal2 id='open_world' name='Open World' jsonData='src/data/services/hsr/open_world.json'/>
             <Modal3 id="missions" name="Missions" jsonData='src/data/services/hsr/missions.json'/>
             <Modal3 id="miscellaneous" name="Miscellaneous" jsonData='src/data/services/hsr/miscellaneous.json'/>
+
+            {timeLimitedEvents}
 
             <div className='carousel carousel-center max-w-sm p-4 space-x-4 md:hidden'>
                 {servicesCards}
