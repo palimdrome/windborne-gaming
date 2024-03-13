@@ -37,7 +37,6 @@ function HonkaiStarRailServices(props) {
             <Modal2 id='open_world' name='Open World' jsonData='src/data/services/hsr/open_world.json'/>
             <Modal3 id="missions" name="Missions" jsonData='src/data/services/hsr/missions.json'/>
             <Modal3 id="miscellaneous" name="Miscellaneous" jsonData='src/data/services/hsr/miscellaneous.json'/>
-            
 
             <div className='carousel carousel-center max-w-sm p-4 space-x-4 md:hidden'>
                 {servicesCards}
