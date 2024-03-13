@@ -15,7 +15,7 @@ import Footer from './components/Footer'
 function App() {
 
   return (
-    <div className='max-w-screen min-h-screen text-white'>
+    <div className='max-w-screen min-h-screen text-white font-jost'>
       <Navbar/>
       <Welcome/>
       <Services/>
