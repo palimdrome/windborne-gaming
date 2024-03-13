@@ -19,8 +19,8 @@ function Services(props) {
         <section className="min-h-screen flex flex-col justify-center items-center gap-y-10 lg:gap-y-10 p-10 lg:p-20" id='services'>
             <PageTitle title={title} subtitle={subtitle} />
             <div className='flex flex-col lg:flex-row justify-center h-1/4 w-5/6 lg:w-3/4 gap-y-2 lg:gap-x-20'>
-                <ServiceCard image={services[0][1]} service={services[0][0]} subtitle={services[0][2]} />
-                <ServiceCard image={services[1][1]} service={services[1][0]} subtitle={services[1][2]} />
+                <ServiceCard image={services[0][1]} service={services[0][0]} subtitle={services[0][2]} linkToSection="#genshin_services" />
+                <ServiceCard image={services[1][1]} service={services[1][0]} subtitle={services[1][2]} linkToSection="#hsr_services" />
             </div>
         </section>
     );
