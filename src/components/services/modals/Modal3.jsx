@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-function Modal (props) {
+function Modal3 (props) {
 
     let id = props.id;
     let name = props.name;
@@ -78,4 +78,4 @@ function Modal (props) {
     )
 }
 
-export default Modal;
+export default Modal3;
