@@ -1,7 +1,27 @@
-import React from 'react'
-import data from '../../../data/services/genshin/account_maintenance.json'
+import React, {useState, useEffect} from 'react'
 
-function AccountMaintenanceModal(props) {
+function Modal1(props) {
+
+    let id = props.id;
+    let name = props.name;
+    let json = props.jsonData;
+    let div_id = id + "_modal"
+
+    const [data, setData] = useState([]);
+
+    useEffect(() => {
+        // function to fetch the JSON file
+        const fetchData = async () => {
+            try {
+                const response = await fetch(json);
+                const jsonData = await response.json();
+                setData(jsonData);
+            } catch (error) {
+                console.error('Error fetching data: ', error);
+            }
+        };
+        fetchData();
+    }, []);
 
     const services = data.map(service =>
         <div className='px-2 md:px-5 lg:px-5 py-2 text-start'>
@@ -17,13 +37,13 @@ function AccountMaintenanceModal(props) {
 
     return (
         <div>
-            <dialog id="account_maintenance_modal" className="modal">
+            <dialog id={div_id} className="modal">
                 <div className="modal-box">
                     <form method="dialog" className='hidden lg:flex'>
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                     </form>
 
-                    <h1 className="font-bold text-xl">Account Maintenance</h1>
+                    <h1 className="font-bold text-xl focus:outline-none" tabIndex={1}>{name}</h1>
                     {services}
 
                     <form method="dialog" className="mt-4 lg:hidden">
@@ -38,4 +58,4 @@ function AccountMaintenanceModal(props) {
     );
 }
 
-export default AccountMaintenanceModal;
+export default Modal1;

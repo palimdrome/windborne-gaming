@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react'
 
-function GenshinFarmingModal () {
+function Modal2 (props) {
+
+    let id = props.id;
+    let name = props.name;
+    let json = props.jsonData;
+    let div_id = id + "_modal"
 
     const [data, setData] = useState([]);
 
@@ -8,7 +13,7 @@ function GenshinFarmingModal () {
         // function to fetch the JSON file
         const fetchData = async () => {
             try {
-                const response = await fetch('src/data/services/genshin/genshin_farming.json');
+                const response = await fetch(json);
                 const jsonData = await response.json();
                 setData(jsonData);
             } catch (error) {
@@ -21,13 +26,13 @@ function GenshinFarmingModal () {
     
 
     return (
-        <dialog id="farming_modal" className="modal">
+        <dialog id={div_id} className="modal">
             <div className="modal-box">
                 <form method="dialog" className='hidden lg:flex'>
                     <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                 </form>
 
-                <h1 className="font-bold text-xl focus:outline-none" id='farming' tabIndex={1}>Farming</h1>
+                <h1 className="font-bold text-xl focus:outline-none" tabIndex={1}>{name}</h1>
 
                 {/* Start inserting pricelist here */}
                 <div className='text-start'>
@@ -63,4 +68,4 @@ function GenshinFarmingModal () {
     )
 }
 
-export default GenshinFarmingModal;
+export default Modal2;
