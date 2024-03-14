@@ -1,0 +1,124 @@
+[
+    {
+        "title": "Anemoculus",
+        "subtitles": [
+            "1 - 20 pcs",
+            "21 - 40 pcs",
+            "41 - 66 pcs",
+            "MAX"
+        ],
+        "prices": [
+            "\u20B1 2/pc",
+            "\u20B1 1.75/pc",
+            "\u20B1 1.5/pc",
+            "\u20B1 97.5"
+        ]
+    },
+    {
+        "title": "Geoculus",
+        "subtitles": [
+            "1 - 40 pcs",
+            "41 - 80 pcs",
+            "81 - 131 pcs",
+            "MAX"
+        ],
+        "prices": [
+            "\u20B1 2/pc",
+            "\u20B1 1.75/pc",
+            "\u20B1 1.5/pc",
+            "\u20B1 195"
+        ]
+    },
+    {
+        "title": "Electroculus",
+        "subtitles": [
+            "1 - 30 pcs",
+            "31 - 60 pcs",
+            "61 - 90 pcs",
+            "91 - 120 pcs",
+            "121 - 150 pcs",
+            "151 - 181 pcs",
+            "MAX"
+        ],
+        "prices": [
+            "\u20B1 3/pc",
+            "\u20B1 2.75/pc",
+            "\u20B1 2.5/pc",
+            "\u20B1 2/pc",
+            "\u20B1 1.75/pc",
+            "\u20B1 1.5/pc",
+            "\u20B1 270"
+        ],
+        "notes": "Required quests not included"
+    },
+    {
+        "title": "Dendroculus",
+        "subtitles": [
+            "1 - 40 pcs",
+            "41 - 80 pcs",
+            "81 - 120 pcs",
+            "121 - 160 pcs",
+            "161 - 200 pcs",
+            "201 - 240 pcs",
+            "241 - 271 pcs",
+            "MAX"
+        ],
+        "prices": [
+            "\u20B1 4/pc",
+            "\u20B1 3.5/pc",
+            "\u20B1 3/pc",
+            "\u20B1 2.5/pc",
+            "\u20B1 2/pc",
+            "\u20B1 1.5/pc",
+            "\u20B1 1.25/pc",
+            "\u20B1 337.5"
+        ],
+        "notes": "Required quests not included"
+    },
+    {
+        "title": "Hydroculus",
+        "subtitles": [
+            "1 - 66 pcs"
+        ],
+        "prices": [
+            "\u20B1 4/pc"
+        ],
+        "notes": "Required quests not included"
+    },
+    {
+        "title": "Crimson Agate",
+        "subtitles": [
+            "1 - 20 pcs",
+            "21 - 40 pcs",
+            "41 - 60 pcs",
+            "61 - 80 pcs",
+            "MAX"
+        ],
+        "prices": [
+            "\u20B1 3/pc",
+            "\u20B1 2.5/pc",
+            "\u20B1 2/pc",
+            "\u20B1 1.5/pc",
+            "\u20B1 120"
+        ],
+        "notes": "Required quests not included"
+    },
+    {
+        "title": "Lumenspar",
+        "subtitles": [
+            "1 - 20 pcs",
+            "21 - 40 pcs",
+            "41 - 60 pcs",
+            "61 - 83 pcs",
+            "MAX"
+        ],
+        "prices": [
+            "\u20B1 3/pc",
+            "\u20B1 2.5/pc",
+            "\u20B1 2/pc",
+            "\u20B1 1.5/pc",
+            "\u20B1 124.5"
+        ],
+        "notes": "Required quests not included"
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "service_name": "Daily Maintenance",
+        "price": "\u20B1 20",
+        "inclusions": [
+            "1 day only",
+            "Daily Training (500/500 points)",
+            "Trailblaze Power burn (240/240 TBP)*",
+            "Assignments"
+        ]
+    },
+
+    {
+        "service_name": "Basic Weekly Maintenance",
+        "price": "\u20B1 100",
+        "inclusions": [
+            "7x Daily Maintenance Package",
+            "Support Character Credits collection",
+            "Nameless Honor tasks**"
+        ]
+    },
+
+    {
+        "service_name": "Premium Weekly Maintenance",
+        "price": "\u20B1 150",
+        "inclusions": [
+            "7x Daily Maintenance Package",
+            "Simulated Universe (14000/14000 points)",
+            "Support Character Credits collection",
+            "Nameless Honor tasks**"
+        ]
+    },
+
+    {
+        "service_name": "Basic Monthly Maintenance",
+        "price": "\u20B1 400",
+        "inclusions": [
+            "4x Basic Weekly Maintenance",
+            "2x Daily Maintenance for FREE"
+        ]
+    },
+
+    {
+        "service_name": "Premium Monthly Maintenance",
+        "price": "\u20B1 400",
+        "inclusions": [
+            "4x Premium Weekly Maintenance",
+            "2x Daily Maintenance for FREE"
+        ]
+    },
+
+    {
+        "service_name": "Character Building Add-on",
+        "price": "\u20B1 50",
+        "inclusions": [
+            "You can choose 1 character that we will build during the maintenance. Applicable only to Basic and Premium Monthly Maintenance."
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "username": "Lim",
+        "desc": "Lead pilot",
+        "imgSrc": "/assets/img/team/lim-avatar.gif",
+        "genshinUID": 0,
+        "hsrUID": 0,
+        "hoyolabUID": 0
+    },
+
+    {
+        "username": "willow",
+        "desc": "Full-time co-pilot",
+        "imgSrc": "/assets/img/team/willow-avatar.webp",
+        "genshinUID": 0,
+        "hsrUID": 0,
+        "hoyolabUID": 0
+    },
+
+    {
+        "username": "Rob",
+        "desc": "Part-time co-pilot",
+        "imgSrc": "/assets/img/team/rob-avatar.webp",
+        "genshinUID": 0,
+        "hsrUID": 0,
+        "hoyolabUID": 0
+    },
+
+    {
+        "username": "Kai",
+        "desc": "Part-time co-pilot",
+        "imgSrc": "/assets/img/team/kai-avatar.webp",
+        "genshinUID": 0,
+        "hsrUID": 0,
+        "hoyolabUID": 0
+    }
+
+]

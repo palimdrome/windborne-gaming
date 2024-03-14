@@ -1,0 +1,66 @@
+[
+    {
+        "service_name": "Everwinter City Museum",
+        "price": "\u20B1 350",
+        "inclusions": [
+            "Management Phase Rewards",
+            "Exhibit Index",
+            "Guest Assistants"
+        ]
+    },
+
+    {
+        "service_name": "Aurum Alley's Hustle and Bustle",
+        "price": "\u20B1 500",
+        "inclusions": [
+            "Guild Benefits",
+            "Logistics Planning",
+            "Store Index",
+            "Guild Intelligence",
+            "Custom Orders"
+        ]
+    },
+
+    {
+        "service_name": "Aetherium Wars",
+        "price": "\u20B1 600",
+        "inclusions": [
+            "Rating Rewards",
+            "Victory Zones",
+            "Index",
+            "Hyperlink Match",
+            "Grand Championship",
+            "Mysterious Elite Player"
+        ]
+    },
+
+    {
+        "service_name": "Foxian Tale of the Haunted",
+        "price": "\u20B1 600",
+        "inclusions": [
+            "Subscription Plan",
+            "Trailblaze Continuance",
+            "Investigation Assignments",
+            "Ghost-Hunting Squad",
+            "Exorcismal Chronicles"
+        ]
+    },
+
+    {
+        "service_name": "Tales of the Fantastic",
+        "price": "\u20B1 180",
+        "inclusions": [""]
+    },
+
+    {
+        "service_name": "Point Ranking Tournament",
+        "price": "\u20B1 75",
+        "inclusions": [""]
+    },
+
+    {
+        "service_name": "Boulder Town Martial Exhibition",
+        "price": "\u20B1 140",
+        "inclusions": [""]
+    }    
+]
