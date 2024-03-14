@@ -41,7 +41,7 @@ function GenshinServices(props) {
 
     return (
         <div className='max-w-screen flex flex-col items-center mb-20 pt-20 text-black m-0' id="genshin_services">
-            <PageTitle title="GENSHIN IMPACT" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+            <PageTitle title="GENSHIN IMPACT" subtitle="Immerse yourself in the enchanting world of Genshin Impact with our professional piloting services. Let us help you soar to new heights and unlock boundless possibilities." />
 
             {/* Room for Improvement: We can loop through the 'services' JSON and create the Modal components one by one.
             This way, we don't have to hard code the id and name. */}

@@ -1,7 +1,7 @@
 [
     {
         "username": "Lim",
-        "desc": "Lorem ipsum dolor",
+        "desc": "Lead pilot",
         "imgSrc": "src/assets/img/team/lim-avatar.gif",
         "genshinUID": 0,
         "hsrUID": 0,
@@ -10,7 +10,7 @@
 
     {
         "username": "willow",
-        "desc": "Lorem ipsum dolor",
+        "desc": "Full-time co-pilot",
         "imgSrc": "src/assets/img/team/willow-avatar.webp",
         "genshinUID": 0,
         "hsrUID": 0,
@@ -19,7 +19,7 @@
 
     {
         "username": "Rob",
-        "desc": "Lorem ipsum dolor",
+        "desc": "Part-time co-pilot",
         "imgSrc": "src/assets/img/team/rob-avatar.webp",
         "genshinUID": 0,
         "hsrUID": 0,
@@ -28,7 +28,7 @@
 
     {
         "username": "Kai",
-        "desc": "Lorem ipsum dolor",
+        "desc": "Part-time co-pilot",
         "imgSrc": "src/assets/img/team/kai-avatar.webp",
         "genshinUID": 0,
         "hsrUID": 0,

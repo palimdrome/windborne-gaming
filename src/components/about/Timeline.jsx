@@ -32,7 +32,7 @@ function Timeline(props) {
     return(
         <section className="min-h-screen flex flex-col justify-center items-center gap-y-5 lg:gap-y-10 p-10 lg:px-20 lg:pt-20 bg-neutral" id='about'>
             <div className='flex flex-col items-center'>
-                <PageTitle title={"ABOUT"} subtitle={"Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi."}/>
+                <PageTitle title={"ABOUT"} subtitle={"Discover our journey through time and space, shaping the gaming landscape with unparalleled expertise and dedication."}/>
             </div>
             <div className='flex flex-col items-start lg:items-center md:items-center'>
             <div className='w-full'>
