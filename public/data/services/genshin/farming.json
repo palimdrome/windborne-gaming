@@ -1,0 +1,64 @@
+[
+    {
+        "title": "Enemy Drops",
+        "types": ["Easy", "Elite"],
+        "denoms": [
+            ["1 star", "2 stars", "3 stars"],
+            ["1 star", "2 stars", "3 stars"]
+        ],
+        "prices": [
+            ["\u20B1 1 / 4 pcs", "\u20B1 1 / 3 pcs", "\u20B1 1 / 2 pcs"],
+            ["\u20B1 1 / 3 pcs", "\u20B1 1 / 2 pcs", "\u20B1 1 / 1 pc"]
+        ]
+    },
+    {
+        "title": "Local Specialty",
+        "types": ["Hard", "Easy"],
+        "denoms": [
+            ["Onikabuto", "Violetgrass", "Qingxin", "Kalpalata Lotus", "Philanemo Mushroom", "Scarab", "Subdetection Unit"],
+            ["All not listed as Hard"]
+        ],
+        "prices": [
+            ["\u20B1 1 / 2 pcs", "\u20B1 1 / 2 pcs", "\u20B1 1 / 2 pcs", "\u20B1 1 / 2 pcs", "\u20B1 1 / 2 pcs", "\u20B1 1 / 2 pcs", "\u20B1 1 / 2 pcs"],
+            ["\u20B1 1 / 3 pcs"]
+        ]
+    },
+    {
+        "title": "Ores",
+        "types": ["Common", "Rare"],
+        "denoms": [
+            ["Iron Chunk", "White Iron Chunk"],
+            ["Crystal Chunk", "Magical Crystal Chunk", "Starsilver", "Amethyst Lump", "Condessence Crystal"]
+        ],
+        "prices": [
+            ["\u20B1 1 / 4 pcs", "\u20B1 1 / 4 pcs"],
+            ["\u20B1 1 / 3 pcs", "\u20B1 1 / 3 pcs", "\u20B1 1 / 3 pcs", "\u20B1 1 / 3 pcs", "\u20B1 1 / 3 pcs"]
+        ]
+    },
+    {
+        "title": "Others",
+        "types": ["Crystalfly", "Other Materials"],
+        "denoms": [
+            ["With Sayu/Yaoyao", "Without Sayu/Yaoyao"],
+            ["Wood", "Ingredients", "Animal Drops"]
+        ],
+        "prices": [
+            ["\u20B1 1 / 3 pcs", "\u20B1 1 / 2 pcs"],
+            ["\u20B1 1 / 4 pcs", "\u20B1 1 / 4 pcs", "\u20B1 1 / 4 pcs"]
+        ]
+    },
+    {
+        "title": "Weapon",
+        "types": ["The Catch", "End of the Line", "Fleuve Cendre"],
+        "denoms": [
+            ["R5 Weapon", "R1 Weapon", "Refinement"],
+            ["R5 Weapon", "R1 Weapon", "Refinement"],
+            ["R5 Weapon", "R1 Weapon", "Refinement"]
+        ],
+        "prices": [
+            ["\u20B1 440", "\u20B1 120", "\u20B1 80 / 1 pc"],
+            ["\u20B1 440", "\u20B1 120", "\u20B1 80 / 1 pc"],
+            ["\u20B1 440", "\u20B1 120", "\u20B1 80 / 1 pc"]
+        ]
+    }
+]

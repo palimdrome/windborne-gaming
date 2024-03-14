@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Treasures and Puzzles",
+        "types": ["Map Treasures", "Puzzles"],
+        "denoms": [
+            ["Basic Treasure", "Bountiful Treasure", "Precious Treasure", "Warp Trotter"],
+            ["Locked/Puzzle Treasures", "Time-Gated Puzzles"]
+        ],
+        "prices": [
+            ["\u20B12 each", "\u20B13 each", "\u20B15 each", "\u20B15 each"],
+            ["\u20B15 each", "\u20B115 per day"]
+        ]
+    },
+    {
+        "title": "Challenges",
+        "types": ["Herta Space Station", "Jarilo-VI", "Xianzhou Luofu"],
+        "denoms": [
+            ["Sealed Sector (4/4)", "Signs of Fragmentum (3/3)"],
+            ["An Eye for and Eye (3/3)", "Winter Soldier's March (3/3)"],
+            ["Eye of the Cosmos (3/3)", "Wraiths of Mirage (3/3)"]
+        ],
+        "prices": [
+            ["\u20B1 50", "\u20B1 30"],
+            ["\u20B1 40", "\u20B1 40"],
+            ["\u20B1 40", "\u20B1 60"]
+        ]
+    }
+]

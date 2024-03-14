@@ -1,0 +1,40 @@
+[
+    {
+        "title": "Story Quests",
+        "subtitles": [
+            "Mondstadt",
+            "Liyue",
+            "Inazuma",
+            "Sumeru",
+            "Fontaine"
+        ],
+        "prices": [
+            "\u20B140 / character",
+            "\u20B140 - \u20B150 / character",
+            "\u20B140 - \u20B150 / character",
+            "\u20B140 - \u20B150 / character",
+            "\u20B140 - \u20B150 / character"
+        ],
+        "notes": "Prerequisite quests/tasks not included. Send us a message to know the specific price of a character."
+    },
+    {
+        "title": "Hangout Events",
+        "subtitles": [
+            "All Hangout Events"
+        ],
+        "prices": [
+            "\u20B1 10 / ending"
+        ],
+        "notes": "Prerequisite quests/tasks not included."
+    },
+    {
+        "title": "Ascension Quests",
+        "subtitles": [
+            "All Ascension Quests"
+        ],
+        "prices": [
+            "\u20B1 50 / quest"
+        ],
+        "notes": "Subject to availability of a viable team."
+    }
+]

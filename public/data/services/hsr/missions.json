@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Prologue: Herta Space Station",
+        "subtitles": [
+            "Part I",
+            "Continuance"
+        ],
+        "desc": [
+            "Today Is Yesterday's Tomorrow",
+            "Crown of the Mundane and Divine"
+        ],
+        "prices": [
+            "\u20B1 100",
+            "\u20B1 130"
+        ]
+    },
+    {
+        "title": "Chapter I: Jarilo-VI",
+        "subtitles": [
+            "Part I",
+            "Part II",
+            "Continuance"
+        ],
+        "desc": [
+            "In the Withering Wintry Night",
+            "In the Sweltering Morning Sun",
+            "Jolted Awake From a Winter Dream"
+        ],
+        "prices": [
+            "\u20B1 210",
+            "\u20B1 175",
+            "\u20B1 130"
+        ]
+    },
+    {
+        "title": "Chapter II: Xianzhou Luofu",
+        "subtitles": [
+            "Part I",
+            "Part II",
+            "Part III",
+            "Continuance"
+        ],
+        "desc": [
+            "Windswept Wanderlust",
+            "Topclouded Towerthrust",
+            "Karmic Clouds Faded, War Banners Folded",
+            "A Foxian Tale of the Haunted"
+        ],
+        "prices": [
+            "\u20B1 260",
+            "\u20B1 90",
+            "\u20B1 65",
+            "\u20B1 70"
+        ]
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "title": "Mondstadt",
+        "subtitles": [
+            "In the Mountains"
+        ],
+        "prices": [
+            "\u20B1 70"
+        ]
+    },
+    {
+        "title": "Liyue",
+        "subtitles": [
+            "Chasm Delvers"
+        ],
+        "prices": [
+            "\u20B1 200"
+        ]
+    },
+    {
+        "title": "Inazuma",
+        "subtitles": [
+            "Through the Mists",
+            "Sakred Sakura Cleansing",
+            "From Dusk to Dawn in Byakuyakoku",
+            "Seirai Stormchaser",
+            "Moon-Bathed Deep",
+            "Tatara Tales",
+            "Orobashi\u2019s Legacy"
+        ],
+        "prices": [
+            "\u20B1 170",
+            "\u20B1 150",
+            "\u20B1 150",
+            "\u20B1 150",
+            "\u20B1 150",
+            "\u20B1 100",
+            "\u20B1 125"
+        ]
+    },
+    {
+        "title": "Sumeru",
+        "subtitles": [
+            "Aranyaka",
+            "Khvarena of Good and Evil",
+            "The Dirge of Bilqis",
+            "Old Notes and New Friends",
+            "Golden Slumber",
+            "Dual Evidence",
+            "Falcon Questline"
+        ],
+        "prices": [
+            "\u20B1 450",
+            "\u20B1 280",
+            "\u20B1 250",
+            "\u20B1 200",
+            "\u20B1 200",
+            "\u20B1 150",
+            "\u20B1 100"
+        ]
+    },
+    {
+        "title": "Fontaine",
+        "subtitles": [
+            "Ancient Colors",
+            "Ann of The Narzissenkreuz",
+            "Aqueous Tidemarks"
+        ],
+        "prices": [
+            "\u20B1 110",
+            "\u20B1 140",
+            "\u20B1 50"
+        ]
+    },
+    {
+        "title": "Short World Quests",
+        "subtitles": [
+            "Mondstadt",
+            "Liyue",
+            "Inazuma",
+            "Sumeru"
+        ],
+        "prices": [
+            "\u20B1 20",
+            "\u20B1 30",
+            "\u20B1 40",
+            "\u20B1 50"
+        ]
+    }
+]

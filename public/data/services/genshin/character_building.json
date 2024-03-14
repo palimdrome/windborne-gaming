@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Ascension",
+        "subtitles": [
+            "Level 20",
+            "Level 40",
+            "Level 50",
+            "Level 60",
+            "Level 70",
+            "Level 80",
+            "MAX"
+        ],
+        "prices": [
+            "\u20B15 - \u20B110",
+            "\u20B115 - \u20B120",
+            "\u20B125 - \u20B135",
+            "\u20B140 - \u20B145",
+            "\u20B165 - \u20B185",
+            "\u20B1145 - \u20B1175",
+            "\u20B1295 - \u20B1370"
+        ],
+        "notes": "EXP and Mora not included"
+    },
+    {
+        "title": "Talents",
+        "subtitles": [
+            "Level 2",
+            "Level 3",
+            "Level 4",
+            "Level 5",
+            "Level 6",
+            "Level 7",
+            "Level 8",
+            "Level 9",
+            "Level 10",
+            "MAX"
+        ],
+        "prices": [
+            "\u20B15 - \u20B110",
+            "\u20B15 - \u20B110",
+            "\u20B110 - \u20B115",
+            "\u20B115 - \u20B120",
+            "\u20B120 - \u20B130",
+            "\u20B130 - \u20B140",
+            "\u20B140 - \u20B150",
+            "\u20B170 - \u20B180",
+            "\u20B190 - \u20B1100",
+            "\u20B1285 - \u20B1355"
+        ],
+        "notes": "Crown and Mora not included"
+    },
+    {
+        "title": "Weapon",
+        "subtitles": [
+            "Level 20",
+            "Level 40",
+            "Level 50",
+            "Level 60",
+            "Level 70",
+            "Level 80",
+            "MAX"
+        ],
+        "prices": [
+            "\u20B1 10",
+            "\u20B1 15",
+            "\u20B1 20",
+            "\u20B1 30",
+            "\u20B1 45",
+            "\u20B1 60",
+            "\u20B1 180"
+        ],
+        "notes": "Ores and Mora not included"
+    }
+]

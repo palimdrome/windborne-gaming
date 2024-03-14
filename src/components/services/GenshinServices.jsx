@@ -2,7 +2,7 @@ import React from 'react'
 import ServicesCards from './ServicesCards'
 import PageTitle from '../PageTitle'
 
-import services from './../../data/services/genshin/genshin_services.json'
+import services from '../../../public/data/services/genshin/genshin_services.json'
 
 // Services Modals | Genshin Impact
 import Modal1 from './modals/Modal1'
@@ -45,13 +45,13 @@ function GenshinServices(props) {
 
             {/* Room for Improvement: We can loop through the 'services' JSON and create the Modal components one by one.
             This way, we don't have to hard code the id and name. */}
-            <Modal1 id='account_maintenance' name='Account Maintenance' jsonData='src/data/services/genshin/account_maintenance.json' />
-            <Modal2 id='farming' name='Farming' jsonData='src/data/services/genshin/farming.json'/>
-            <Modal3 id="archon_quests" name="Archon Quests" jsonData='src/data/services/genshin/archon_quests.json'/>
-            <Modal3 id="world_quests" name="World Quests" jsonData='src/data/services/genshin/world_quests.json'/>
-            <Modal3 id="special_items" name="Special Items" jsonData='src/data/services/genshin/special_items.json'/>
-            <Modal3 id="character_building" name="Character Building" jsonData='src/data/services/genshin/character_building.json' note={characterBuildingNote} />
-            <Modal3 id="other_quests" name="Other Quests" jsonData='src/data/services/genshin/other_quests.json' />
+            <Modal1 id='account_maintenance' name='Account Maintenance' jsonData='/data/services/genshin/account_maintenance.json' />
+            <Modal2 id='farming' name='Farming' jsonData='/data/services/genshin/farming.json'/>
+            <Modal3 id="archon_quests" name="Archon Quests" jsonData='/data/services/genshin/archon_quests.json'/>
+            <Modal3 id="world_quests" name="World Quests" jsonData='/data/services/genshin/world_quests.json'/>
+            <Modal3 id="special_items" name="Special Items" jsonData='/data/services/genshin/special_items.json'/>
+            <Modal3 id="character_building" name="Character Building" jsonData='/data/services/genshin/character_building.json' note={characterBuildingNote} />
+            <Modal3 id="other_quests" name="Other Quests" jsonData='/data/services/genshin/other_quests.json' />
 
             {timeLimitedEvents}
 

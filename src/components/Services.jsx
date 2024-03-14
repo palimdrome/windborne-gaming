@@ -8,10 +8,10 @@ function Services(props) {
 
     let services = [
         ["Genshin Impact",
-        "src/assets/img/services/genshin-impact-service-bg.jpg",
+        "/assets/img/services/genshin-impact-service-bg.jpg",
         "Unlock the full potential of your Genshin Impact adventure with our expert piloting services."],
         ["Honkai: Star Rail",
-        "src/assets/img/services/honkai-star-rail-service-bg.jpg",
+        "/assets/img/services/honkai-star-rail-service-bg.jpg",
         "Navigate the cosmos of Honkai Star Rail with finesse and precision with our dedicated piloting assistance."]
     ];
 

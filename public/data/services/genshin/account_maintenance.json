@@ -1,0 +1,49 @@
+[
+    {
+        "service_name": "Daily Maintenance",
+        "price": "\u20B1 25",
+        "inclusions": [
+            "Daily Commissions",
+            "Original Resin Burn",
+            "Expeditions",
+            "Daily BP Missions"
+        ]
+    },
+
+    {
+        "service_name": "Basic Weekly Maintenance",
+        "price": "\u20B1 140",
+        "inclusions": [
+            "7x Daily Maintenance"
+        ]
+    },
+
+    {
+        "service_name": "Standard Weekly Maintenance",
+        "price": "\u20B1 155",
+        "inclusions": [
+            "Basic Weekly Maintenance",
+            "+ Reputation: Bounties and Requests",
+            "+ Weekly Gadgets",
+            "+ Serenitea Pot Collection"
+        ]
+    },
+
+    {
+        "service_name": "Premium Weekly Maintenance",
+        "price": "\u20B1 200",
+        "inclusions": [
+            "Standard Weekly Maintenance",
+            "+ Weekly BP Missions*"
+        ]
+    },
+
+    {
+        "service_name": "Monthly Maintenance",
+        "price": "\u20B1 560 - \u20B1 800",
+        "inclusions": [
+            "4x Weekly Maintenance (Basic, Standard, and/or Premium)",
+            "+ 2x Daily Maintenance for FREE"
+        ]
+    }
+]
