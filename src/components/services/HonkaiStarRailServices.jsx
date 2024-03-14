@@ -12,6 +12,9 @@ import Modal4 from './modals/Modal4'
 
 function HonkaiStarRailServices(props) {
 
+    let accountMaintenanceNote = 
+    "*Doesn't include Simulated Universe.\n**Doesn't include all tasks. Completing other tasks (e.g., 'Clear Cavern of Corrosion 8 times') is subject to the client's preferences in burning their TBP";
+
     console.log(services)
 
     const servicesCards = services.map(service =>
@@ -41,7 +44,7 @@ function HonkaiStarRailServices(props) {
         <div className='max-w-screen flex flex-col items-center mb-20 text-black m-0' id='hsr_services'>
             <PageTitle title="HONKAI: STAR RAIL" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
 
-            <Modal1 id='hsr_account_maintenance' name='Account Maintenance' jsonData='src/data/services/hsr/account_maintenance.json' />
+            <Modal1 id='hsr_account_maintenance' name='Account Maintenance' jsonData='src/data/services/hsr/account_maintenance.json' note={accountMaintenanceNote} />
             <Modal1 id='old_events' name='Old Events' jsonData='src/data/services/hsr/old_events.json' />
             <Modal2 id='open_world' name='Open World' jsonData='src/data/services/hsr/open_world.json'/>
             <Modal3 id="missions" name="Missions" jsonData='src/data/services/hsr/missions.json'/>

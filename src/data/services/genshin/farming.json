@@ -7,8 +7,8 @@
             ["1 star", "2 stars", "3 stars"]
         ],
         "prices": [
-            ["\u20B1 1 per 4 pcs", "\u20B1 1 per 3 pcs", "\u20B1 1 per 2 pcs"],
-            ["\u20B1 1 per 3 pcs", "\u20B1 1 per 2 pcs", "\u20B1 1 per 1 pc"]
+            ["\u20B1 1 / 4 pcs", "\u20B1 1 / 3 pcs", "\u20B1 1 / 2 pcs"],
+            ["\u20B1 1 / 3 pcs", "\u20B1 1 / 2 pcs", "\u20B1 1 / 1 pc"]
         ]
     },
     {
@@ -16,11 +16,11 @@
         "types": ["Hard", "Easy"],
         "denoms": [
             ["Onikabuto", "Violetgrass", "Qingxin", "Kalpalata Lotus", "Philanemo Mushroom", "Scarab", "Subdetection Unit"],
-            ["All not listed under Hard"]
+            ["All not listed as Hard"]
         ],
         "prices": [
-            ["\u20B1 1 per 2 pcs", "\u20B1 1 per 2 pcs", "\u20B1 1 per 2 pcs", "\u20B1 1 per 2 pcs", "\u20B1 1 per 2 pcs", "\u20B1 1 per 2 pcs", "\u20B1 1 per 2 pcs"],
-            ["\u20B1 1 per 3 pcs"]
+            ["\u20B1 1 / 2 pcs", "\u20B1 1 / 2 pcs", "\u20B1 1 / 2 pcs", "\u20B1 1 / 2 pcs", "\u20B1 1 / 2 pcs", "\u20B1 1 / 2 pcs", "\u20B1 1 / 2 pcs"],
+            ["\u20B1 1 / 3 pcs"]
         ]
     },
     {
@@ -31,8 +31,8 @@
             ["Crystal Chunk", "Magical Crystal Chunk", "Starsilver", "Amethyst Lump", "Condessence Crystal"]
         ],
         "prices": [
-            ["\u20B1 1 per 4 pcs", "\u20B1 1 per 4 pcs"],
-            ["\u20B1 1 per 3 pcs", "\u20B1 1 per 3 pcs", "\u20B1 1 per 3 pcs", "\u20B1 1 per 3 pcs", "\u20B1 1 per 3 pcs"]
+            ["\u20B1 1 / 4 pcs", "\u20B1 1 / 4 pcs"],
+            ["\u20B1 1 / 3 pcs", "\u20B1 1 / 3 pcs", "\u20B1 1 / 3 pcs", "\u20B1 1 / 3 pcs", "\u20B1 1 / 3 pcs"]
         ]
     },
     {
@@ -43,8 +43,8 @@
             ["Wood", "Ingredients", "Animal Drops"]
         ],
         "prices": [
-            ["\u20B1 1 per 3 pcs", "\u20B1 1 per 2 pcs"],
-            ["\u20B1 1 per 4 pcs", "\u20B1 1 per 4 pcs", "\u20B1 1 per 4 pcs"]
+            ["\u20B1 1 / 3 pcs", "\u20B1 1 / 2 pcs"],
+            ["\u20B1 1 / 4 pcs", "\u20B1 1 / 4 pcs", "\u20B1 1 / 4 pcs"]
         ]
     },
     {
@@ -56,9 +56,9 @@
             ["R5 Weapon", "R1 Weapon", "Refinement"]
         ],
         "prices": [
-            ["\u20B1 440", "\u20B1 120", "\u20B1 80 per 1 pc"],
-            ["\u20B1 440", "\u20B1 120", "\u20B1 80 per 1 pc"],
-            ["\u20B1 440", "\u20B1 120", "\u20B1 80 per 1 pc"]
+            ["\u20B1 440", "\u20B1 120", "\u20B1 80 / 1 pc"],
+            ["\u20B1 440", "\u20B1 120", "\u20B1 80 / 1 pc"],
+            ["\u20B1 440", "\u20B1 120", "\u20B1 80 / 1 pc"]
         ]
     }
 ]
