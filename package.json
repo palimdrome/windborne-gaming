@@ -2,7 +2,7 @@
   "name": "windborne-gaming",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://palimdrome.github.io/windborne-gaming",
+  "homepage": "https://palimdrome.github.io/windborne-gaming/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
@@ -15,7 +15,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-image": "^4.1.0"
+    "react-image": "^4.1.0",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",
