@@ -41,7 +41,7 @@ function HonkaiStarRailServices(props) {
     console.log(servicesCards)
 
     return (
-        <div className='max-w-screen flex flex-col items-center mb-20 pt-20 text-black m-0' id='hsr_services'>
+        <div className='max-w-screen flex flex-col items-center mb-20 text-black m-0' id='hsr_services'>
             <PageTitle title="HONKAI: STAR RAIL" subtitle="Embark on an epic journey through the stars with our tailored piloting services for Honkai Star Rail. Explore the depths of space and conquer challenges with ease." />
 
             <Modal1 id='hsr_account_maintenance' name='Account Maintenance' jsonData='src/data/services/hsr/account_maintenance.json' note={accountMaintenanceNote} />

@@ -30,7 +30,7 @@ function Teams(props) {
                 <PageTitle title={"TEAMS"} subtitle={"Meet the masterminds behind our success, a diverse team of gaming enthusiasts dedicated to delivering unparalleled service and satisfaction."}/>
             </div>
             <div className='w-screen'>
-                <div className="carousel carousel-center lg:w-3/4 w-2/4 max-w-full p-4 space-x-10 lg:justify-center">
+                <div className="carousel carousel-center lg:w-3/4 w-2/4 max-w-full p-4 space-x-10">
                     {/* <TeamMemberCard imageSrc="src\assets\img\team\lim-avatar.gif" name="Lim" desc="Lorem ipsum dolor" />
                     <TeamMemberCard imageSrc="src\assets\img\team\willow-avatar.webp" name="willow" desc="Lorem ipsum dolor" />
                     <TeamMemberCard imageSrc="src\assets\img\team\rob-avatar.webp" name="Rob" desc="Lorem ipsum dolor" />
