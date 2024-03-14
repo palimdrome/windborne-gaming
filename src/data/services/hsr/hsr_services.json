@@ -5,7 +5,8 @@
         "duration": "04/23/24 3:59AM",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
         "img_url": "/assets/img/services/hsr-service-1.png",
-        "id": "event_1"
+        "pub_url": "src/assets/img/services/event_pubs/hsr/1.png",
+        "id": "hsr_event_1"
 
     },
     {
@@ -14,7 +15,8 @@
         "duration": "05/01/24 3:59AM",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
         "img_url": "/assets/img/services/hsr-service-2.png",
-        "id": "event_2"
+        "pub_url": "src/assets/img/services/event_pubs/hsr/2.png",
+        "id": "hsr_event_2"
 
     },
     {
@@ -23,7 +25,8 @@
         "duration": "05/08/24 3:59AM",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
         "img_url": "/assets/img/services/hsr-service-3.png",
-        "id": "event_3"
+        "pub_url": "src/assets/img/services/event_pubs/hsr/3.png",
+        "id": "hsr_event_3"
 
     },
     {

@@ -8,8 +8,12 @@ import services from './../../data/services/hsr/hsr_services.json'
 import Modal1 from './modals/Modal1'
 import Modal2 from './modals/Modal2'
 import Modal3 from './modals/Modal3'
+import Modal4 from './modals/Modal4'
 
 function HonkaiStarRailServices(props) {
+
+    let accountMaintenanceNote = 
+    "*Doesn't include Simulated Universe.\n**Doesn't include all tasks. Completing other tasks (e.g., 'Clear Cavern of Corrosion 8 times') is subject to the client's preferences in burning their TBP";
 
     console.log(services)
 
@@ -26,17 +30,27 @@ function HonkaiStarRailServices(props) {
             
     )
 
+    const timeLimitedEvents = services.map((service) =>
+        (service.service_type === "Time-Limited Event" ?
+            <Modal4 id={service.id} name={service.title} pub_url={service.pub_url} />
+            :
+            <div className='hidden'></div>
+        ) 
+    )
+
     console.log(servicesCards)
 
     return (
         <div className='max-w-screen flex flex-col items-center mb-20 text-black m-0' id='hsr_services'>
             <PageTitle title="HONKAI: STAR RAIL" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
 
-            <Modal1 id='hsr_account_maintenance' name='Account Maintenance' jsonData='src/data/services/hsr/account_maintenance.json' />
+            <Modal1 id='hsr_account_maintenance' name='Account Maintenance' jsonData='src/data/services/hsr/account_maintenance.json' note={accountMaintenanceNote} />
             <Modal1 id='old_events' name='Old Events' jsonData='src/data/services/hsr/old_events.json' />
             <Modal2 id='open_world' name='Open World' jsonData='src/data/services/hsr/open_world.json'/>
             <Modal3 id="missions" name="Missions" jsonData='src/data/services/hsr/missions.json'/>
             <Modal3 id="miscellaneous" name="Miscellaneous" jsonData='src/data/services/hsr/miscellaneous.json'/>
+
+            {timeLimitedEvents}
 
             <div className='carousel carousel-center max-w-sm p-4 space-x-4 md:hidden'>
                 {servicesCards}

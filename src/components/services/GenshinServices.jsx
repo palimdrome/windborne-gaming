@@ -8,6 +8,7 @@ import services from './../../data/services/genshin/genshin_services.json'
 import Modal1 from './modals/Modal1'
 import Modal2 from './modals/Modal2'
 import Modal3 from './modals/Modal3'
+import Modal4 from './modals/Modal4'
 
 function GenshinServices(props) {
 
@@ -28,20 +29,31 @@ function GenshinServices(props) {
             
     )
 
+    const timeLimitedEvents = services.map((service) =>
+        (service.service_type === "Time-Limited Event" ?
+            <Modal4 id={service.id} name={service.title} pub_url={service.pub_url} />
+            :
+            <div className='hidden'></div>
+        ) 
+    )
+
     console.log(servicesCards)
 
     return (
         <div className='max-w-screen flex flex-col items-center mb-20 pt-20 text-black m-0' id="genshin_services">
             <PageTitle title="GENSHIN IMPACT" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
 
+            {/* Room for Improvement: We can loop through the 'services' JSON and create the Modal components one by one.
+            This way, we don't have to hard code the id and name. */}
             <Modal1 id='account_maintenance' name='Account Maintenance' jsonData='src/data/services/genshin/account_maintenance.json' />
-            <Modal2 id='farming' name='Farming' jsonData='src/data/services/genshin/genshin_farming.json'/>
+            <Modal2 id='farming' name='Farming' jsonData='src/data/services/genshin/farming.json'/>
             <Modal3 id="archon_quests" name="Archon Quests" jsonData='src/data/services/genshin/archon_quests.json'/>
             <Modal3 id="world_quests" name="World Quests" jsonData='src/data/services/genshin/world_quests.json'/>
             <Modal3 id="special_items" name="Special Items" jsonData='src/data/services/genshin/special_items.json'/>
             <Modal3 id="character_building" name="Character Building" jsonData='src/data/services/genshin/character_building.json' note={characterBuildingNote} />
             <Modal3 id="other_quests" name="Other Quests" jsonData='src/data/services/genshin/other_quests.json' />
 
+            {timeLimitedEvents}
 
             <div className='carousel carousel-center max-w-sm p-4 space-x-4 md:hidden'>
                 {servicesCards}

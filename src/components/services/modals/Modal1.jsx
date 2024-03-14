@@ -5,6 +5,7 @@ function Modal1(props) {
     let id = props.id;
     let name = props.name;
     let json = props.jsonData;
+    let note = props.note;
     let div_id = id + "_modal"
 
     const [data, setData] = useState([]);
@@ -45,6 +46,11 @@ function Modal1(props) {
 
                     <h1 className="font-bold text-xl focus:outline-none" tabIndex={1}>{name}</h1>
                     {services}
+
+                    {(note !== undefined) ?
+                    <p className='text-start whitespace-pre-line text-sm py-5 px-4'>{note}</p>
+                    :
+                    <p className='hidden'></p>}
 
                     <form method="dialog" className="mt-4 lg:hidden">
                         <button className='btn btn-circle'>

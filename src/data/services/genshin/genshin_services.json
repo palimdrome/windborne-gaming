@@ -5,6 +5,7 @@
         "duration": "04/23/24 3:59AM",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
         "img_url": "/assets/img/services/genshin-service-1.png",
+        "pub_url": "src/assets/img/services/event_pubs/genshin/1.jpg",
         "id": "event_1"
 
     },
@@ -14,6 +15,7 @@
         "duration": "05/01/24 3:59AM",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
         "img_url": "/assets/img/services/genshin-service-2.png",
+        "pub_url": "src/assets/img/services/event_pubs/genshin/2.jpg",
         "id": "event_2"
 
     },
@@ -23,6 +25,7 @@
         "duration": "05/08/24 3:59AM",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
         "img_url": "/assets/img/services/genshin-service-3.png",
+        "pub_url": "src/assets/img/services/event_pubs/genshin/3.jpg",
         "id": "event_3"
 
     },
@@ -49,6 +52,7 @@
         "title": "Farming",
         "duration": "N/A",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
+        "data": "src/data/services/genshin/farming.json",
         "img_url": "/assets/img/services/genshin-service-6.png",
         "id": "farming"
 
