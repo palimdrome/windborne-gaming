@@ -11,6 +11,7 @@ import Timeline from './components/about/Timeline'
 import Teams from './components/teams/Teams'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import ScrollToTopButton from './components/ScrollToTopButton'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <Teams />
       <Contact />
       <Footer />
+      <ScrollToTopButton />
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import background from '../assets/img/homepage-cropped.png'
+import '../styles/fade.css'
 
 function Welcome(props) {
     return (
@@ -10,7 +11,10 @@ function Welcome(props) {
 
                     <h1 className="lg:text-6xl md:text-6xl text-5xl text-left lg:text-center font-bold">Welcome to Windborne,</h1>
 
-                    <h1 className="lg:text-8xl text-7xl text-left lg:text-center font-bold">Traveller</h1>
+                    <div className='relative lg:h-16 h-14 w-full'>
+                        <h1 className="title lg:text-8xl text-7xl text-left lg:text-center md:text-center font-bold absolute top-0.5 lg:-top-2 left-0 right-0 ml-auto mr-auto">Traveller</h1>
+                        <h1 className="title reverse lg:text-8xl text-7xl text-left lg:text-center md:text-center font-bold absolute top-0.5 lg:-top-2 left-0 right-0 ml-auto mr-auto">Trailblazer</h1>
+                    </div>
 
                     <p className="max-w-lg text-lg text-left lg:text-center md:text-center p-1">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
 
