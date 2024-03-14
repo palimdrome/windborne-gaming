@@ -42,7 +42,7 @@ function HonkaiStarRailServices(props) {
 
     return (
         <div className='max-w-screen flex flex-col items-center mb-20 text-black m-0' id='hsr_services'>
-            <PageTitle title="HONKAI: STAR RAIL" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+            <PageTitle title="HONKAI: STAR RAIL" subtitle="Embark on an epic journey through the stars with our tailored piloting services for Honkai Star Rail. Explore the depths of space and conquer challenges with ease." />
 
             <Modal1 id='hsr_account_maintenance' name='Account Maintenance' jsonData='src/data/services/hsr/account_maintenance.json' note={accountMaintenanceNote} />
             <Modal1 id='old_events' name='Old Events' jsonData='src/data/services/hsr/old_events.json' />

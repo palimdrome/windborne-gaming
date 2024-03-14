@@ -4,15 +4,15 @@ import PageTitle from './PageTitle';
 
 function Services(props) {
     let title = "services";
-    let subtitle = "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.";
+    let subtitle = "Elevate your gaming experience with our premium piloting services tailored to your needs.";
 
     let services = [
         ["Genshin Impact",
         "src/assets/img/services/genshin-impact-service-bg.jpg",
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi."],
+        "Unlock the full potential of your Genshin Impact adventure with our expert piloting services."],
         ["Honkai: Star Rail",
         "src/assets/img/services/honkai-star-rail-service-bg.jpg",
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi."]
+        "Navigate the cosmos of Honkai Star Rail with finesse and precision with our dedicated piloting assistance."]
     ];
 
     return (
