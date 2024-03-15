@@ -2,19 +2,19 @@
     {
         "title": "Our humble beginnings",
         "subtitle": "From a simple dream to a thriving reality, we've embarked on a quest to redefine gaming excellence. Join us as we continue to push the boundaries of possibility.",
-        "imgSrc": "/assets/img/about/about-1.png",
+        "imgSrc": "public/assets/img/about/about-1.png",
         "alt": "Pilot Services Soft Launch pub"
     },
     {
         "title": "Genshin Impact Pilot Services",
         "subtitle": "Dive deep into the heart of Teyvat with our Genshin Impact pilot services. Whether you seek rare artifacts or desire to ascend the ranks, our skilled pilots are here to guide you every step of the way.",
-        "imgSrc": "/assets/img/about/about-2.png",
+        "imgSrc": "public/assets/img/about/about-2.png",
         "alt": "Genshin Impact Pilot Services pub"
     },
     {
         "title": "Honkai: Star Rail Pilot Services",
         "subtitle": "Traverse the vast expanse of space with confidence, aided by our Honkai: Star Rail pilot services. Unravel the mysteries of the cosmos and emerge victorious in every battle.",
-        "imgSrc": "/assets/img/about/about-3.png",
+        "imgSrc": "public/assets/img/about/about-3.png",
         "alt": "Honkai: Star Rail Pilot Services pub"
     }
 ]
