@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/img/windborne-logo-white.png';
+import logo from '/assets/img/windborne-logo-white.png';
 
 function Navbar(props) {
     return (

@@ -10,7 +10,7 @@ function Teams(props) {
         // function to fetch the JSON file
         const fetchData = async () => {
             try {
-                const response = await fetch('/data/team/profile.json');
+                const response = await fetch('./data/team/profile.json');
                 const jsonData = await response.json();
                 setData(jsonData);
             } catch (error) {

@@ -44,11 +44,11 @@ function HonkaiStarRailServices(props) {
         <div className='max-w-screen flex flex-col items-center mb-20 pt-20 text-black m-0' id='hsr_services'>
             <PageTitle title="HONKAI: STAR RAIL" subtitle="Embark on an epic journey through the stars with our tailored piloting services for Honkai Star Rail. Explore the depths of space and conquer challenges with ease." />
 
-            <Modal1 id='hsr_account_maintenance' name='Account Maintenance' jsonData='/data/services/hsr/account_maintenance.json' note={accountMaintenanceNote} />
-            <Modal1 id='old_events' name='Old Events' jsonData='/data/services/hsr/old_events.json' />
-            <Modal2 id='open_world' name='Open World' jsonData='/data/services/hsr/open_world.json'/>
-            <Modal3 id="missions" name="Missions" jsonData='/data/services/hsr/missions.json'/>
-            <Modal3 id="miscellaneous" name="Miscellaneous" jsonData='/data/services/hsr/miscellaneous.json'/>
+            <Modal1 id='hsr_account_maintenance' name='Account Maintenance' jsonData='./data/services/hsr/account_maintenance.json' note={accountMaintenanceNote} />
+            <Modal1 id='old_events' name='Old Events' jsonData='./data/services/hsr/old_events.json' />
+            <Modal2 id='open_world' name='Open World' jsonData='./data/services/hsr/open_world.json'/>
+            <Modal3 id="missions" name="Missions" jsonData='./data/services/hsr/missions.json'/>
+            <Modal3 id="miscellaneous" name="Miscellaneous" jsonData='./data/services/hsr/miscellaneous.json'/>
 
             {timeLimitedEvents}
 
