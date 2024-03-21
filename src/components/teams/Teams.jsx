@@ -27,7 +27,7 @@ function Teams(props) {
     return (
         <section className='min-h-screen flex flex-col justify-center items-center gap-y-5 lg:gap-y-10 p-10 lg:p-20' id='teams'>
             <div className='flex flex-col items-center'>
-                <PageTitle title={"TEAMS"} subtitle={"Meet the masterminds behind our success, a diverse team of gaming enthusiasts dedicated to delivering unparalleled service and satisfaction."}/>
+                <PageTitle title={"TEAM"} subtitle={"Meet the masterminds behind our success, a diverse team of gaming enthusiasts dedicated to delivering unparalleled service and satisfaction."}/>
             </div>
             <div className='w-screen'>
                 <div className="carousel carousel-center lg:w-3/4 w-2/4 max-w-full p-4 space-x-10 lg:justify-center">
