@@ -11,7 +11,7 @@ function Timeline(props) {
         // function to fetch the JSON file
         const fetchData = async () => {
             try {
-                const response = await fetch('/data/about/timeline.json');
+                const response = await fetch('./data/about/timeline.json');
                 const jsonData = await response.json();
 
                 // adds index and maxIndex to each object

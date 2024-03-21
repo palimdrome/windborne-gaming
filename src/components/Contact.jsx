@@ -1,5 +1,5 @@
 import React from 'react'
-import background from '../assets/img/contact.png';
+import background from '/assets/img/contact.png';
 
 function Contact (props) {
     return (

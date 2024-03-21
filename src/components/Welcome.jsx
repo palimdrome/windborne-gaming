@@ -1,5 +1,5 @@
 import React from 'react'
-import background from '../assets/img/homepage-cropped.png'
+import background from '/assets/img/homepage-cropped.png'
 import '../styles/fade.css'
 
 function Welcome(props) {

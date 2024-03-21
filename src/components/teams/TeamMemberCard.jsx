@@ -19,9 +19,9 @@ function TeamMemberCard ({ profile }) {
                 {/* <img src="src\assets\img\team\genshin-impact-button.png" className='w-1/4 rounded-full hover:scale-110 transition ease-in-out delay-50 duration-300' alt="Genshin Impact icon" />
                 <img src="src\assets\img\team\honkai-star-rail-button.webp" className='w-1/4 rounded-full hover:scale-110 transition ease-in-out delay-50 duration-300' alt="Honkai Star Rail icon" />
                 <img src="src\assets\img\team\hoyolab-button.jpg" className='w-1/4 rounded-full hover:scale-110 transition ease-in-out delay-50 duration-300' alt="HoYoLab icon" /> */}
-                <HoYoLogo profile={genshinUID} imgSrc={"/assets/img/team/genshin-impact-button.png"} alt={"Genshin Impact icon"} />
-                <HoYoLogo profile={hsrUID} imgSrc={"/assets/img/team/honkai-star-rail-button.webp"} alt={"Honkai Star Rail icon"} />
-                <HoYoLogo profile={hoyolabUID} imgSrc={"/assets/img/team/hoyolab-button.jpg"} alt={"HoYoLab icon"} />
+                <HoYoLogo profile={genshinUID} imgSrc={"./assets/img/team/genshin-impact-button.png"} alt={"Genshin Impact icon"} />
+                <HoYoLogo profile={hsrUID} imgSrc={"./assets/img/team/honkai-star-rail-button.webp"} alt={"Honkai Star Rail icon"} />
+                <HoYoLogo profile={hoyolabUID} imgSrc={"./assets/img/team/hoyolab-button.jpg"} alt={"HoYoLab icon"} />
             </div>
         </div>
     );

@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/img/windborne-logo-white.png';
+import logo from '/assets/img/windborne-logo-white.png';
 
 function Footer (props) {
     const year = new Date().getFullYear()

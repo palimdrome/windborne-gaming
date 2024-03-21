@@ -1,31 +1,31 @@
 [
     {
         "service_type": "Time-Limited Event",
-        "title": "Sample Event Title",
-        "duration": "04/23/24 3:59AM",
+        "title": "Dreamchaser Bulletin",
+        "duration": "03/25/24 3:59AM",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
-        "img_url": "/assets/img/services/hsr-service-1.png",
-        "pub_url": "/assets/img/services/event_pubs/hsr/1.png",
+        "img_url": "./assets/img/services/hsr-event-1.png",
+        "pub_url": "./assets/img/services/event_pubs/hsr/hsr-event-pub-1.png",
         "id": "hsr_event_1"
 
     },
     {
         "service_type": "Time-Limited Event",
-        "title": "Sample Event Title",
-        "duration": "05/01/24 3:59AM",
+        "title": "Hanu's Prison Break",
+        "duration": "03/25/24 3:59AM",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
-        "img_url": "/assets/img/services/hsr-service-2.png",
-        "pub_url": "/assets/img/services/event_pubs/hsr/2.png",
+        "img_url": "./assets/img/services/hsr-event-2.png",
+        "pub_url": "./assets/img/services/event_pubs/hsr/hsr-event-pub-2.png",
         "id": "hsr_event_2"
 
     },
     {
         "service_type": "Time-Limited Event",
-        "title": "Sample Event Title",
-        "duration": "05/08/24 3:59AM",
+        "title": "Dreamjolt TV",
+        "duration": "03/25/24 3:59AM",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
-        "img_url": "/assets/img/services/hsr-service-3.png",
-        "pub_url": "/assets/img/services/event_pubs/hsr/3.png",
+        "img_url": "./assets/img/services/hsr-event-3.png",
+        "pub_url": "./assets/img/services/event_pubs/hsr/hsr-event-pub-3.png",
         "id": "hsr_event_3"
 
     },
@@ -34,7 +34,7 @@
         "title": "Account Maintenance",
         "duration": "N/A",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
-        "img_url": "/assets/img/services/hsr-service-4.png",
+        "img_url": "./assets/img/services/hsr-service-4.png",
         "id": "hsr_account_maintenance"
 
     },
@@ -43,7 +43,7 @@
         "title": "Missions",
         "duration": "N/A",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
-        "img_url": "/assets/img/services/hsr-service-5.png",
+        "img_url": "./assets/img/services/hsr-service-5.png",
         "id": "missions"
 
     },
@@ -52,7 +52,7 @@
         "title": "Open World",
         "duration": "N/A",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
-        "img_url": "/assets/img/services/hsr-service-6.png",
+        "img_url": "./assets/img/services/hsr-service-6.png",
         "id": "open_world"
 
     },
@@ -61,7 +61,7 @@
         "title": "Old Events",
         "duration": "N/A",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum  reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
-        "img_url": "/assets/img/services/hsr-service-7.png",
+        "img_url": "./assets/img/services/hsr-service-7.png",
         "id": "old_events"
 
     },
@@ -70,7 +70,7 @@
         "title": "Miscellaneous",
         "duration": "N/A",
         "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum  reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
-        "img_url": "/assets/img/services/hsr-service-8.png",
+        "img_url": "./assets/img/services/hsr-service-8.png",
         "id": "miscellaneous"
 
     }
