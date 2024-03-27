@@ -1,35 +1,5 @@
 [
     {
-        "service_type": "Time-Limited Event",
-        "title": "Dreamchaser Bulletin",
-        "duration": "03/25/24 3:59AM",
-        "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
-        "img_url": "./assets/img/services/hsr-event-1.png",
-        "pub_url": "./assets/img/services/event_pubs/hsr/hsr-event-pub-1.png",
-        "id": "hsr_event_1"
-
-    },
-    {
-        "service_type": "Time-Limited Event",
-        "title": "Hanu's Prison Break",
-        "duration": "03/25/24 3:59AM",
-        "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
-        "img_url": "./assets/img/services/hsr-event-2.png",
-        "pub_url": "./assets/img/services/event_pubs/hsr/hsr-event-pub-2.png",
-        "id": "hsr_event_2"
-
-    },
-    {
-        "service_type": "Time-Limited Event",
-        "title": "Dreamjolt TV",
-        "duration": "03/25/24 3:59AM",
-        "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
-        "img_url": "./assets/img/services/hsr-event-3.png",
-        "pub_url": "./assets/img/services/event_pubs/hsr/hsr-event-pub-3.png",
-        "id": "hsr_event_3"
-
-    },
-    {
         "service_type": "service",
         "title": "Account Maintenance",
         "duration": "N/A",
